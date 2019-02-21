@@ -6,9 +6,9 @@
 .navbar-collapse{ justify-content: flex-end;}
 .navbar-toggler{  background:#fff !important;}
 h2{ color: #ff6961;
-    font-family: 'Roboto';
+    font: 'Roboto';
     position: relative;
 }
 main{
-    color: solid #ccc;
+    font: solid #ccc;
 }
