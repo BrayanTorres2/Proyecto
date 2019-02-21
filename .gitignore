@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Compiled class file
 *.class
 
@@ -26,13 +27,19 @@ hs_err_pid*
 =======
 =======
 >>>>>>> try hahahah
+=======
+>>>>>>> prueba mockup
 # https://git-scm.com/docs/gitignore
 # https://help.github.com/articles/ignoring-files
 # Example .gitignore files: https://github.com/github/gitignore
 /bower_components/
+<<<<<<< HEAD
 <<<<<<< HEAD
 /node_modules/
 >>>>>>> Pagina web
 =======
 /node_modules/
 >>>>>>> try hahahah
+=======
+/node_modules/
+>>>>>>> prueba mockup
