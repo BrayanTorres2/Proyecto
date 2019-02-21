@@ -9,3 +9,6 @@ h2{ color: #ff6961;
     font-family: 'Roboto';
     position: relative;
 }
+main{
+    color: solid #ccc;
+}
