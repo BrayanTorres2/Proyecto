@@ -9,6 +9,8 @@ h2{ color: #ff6961;
     font: 'Roboto';
     position: relative;
 }
-p{
-    color: solid #ccc;
+.grey{
+    color: #ccc;
 }
+
+
