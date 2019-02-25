@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: :border-box;
+}
+body{
+     /* “background-color: rgb(0,0,255); opacity: 0.5;*/
+    background:url(Imagenes/2.jpg);
+    background-repeat: no-repeat;
+    display:flex;
+    min-height:100px;
+
+}
+form{
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+    max-width: 500px;
+    background-color: rgb(0,0,);
+    opacity:;
+    padding: 30px;
+    border: 1px solid rgba(0,0,0,0,2);
+}
+#Inicio{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffff;
+
+}
+h7{
+    color: #0F74DB;
+}
+
+input{
+    display: block;
+    padding: 10px;
+    width: 100%;
+    margin: 30px 0;
+    font-size: 20px;
+
+}
+.BIngresar{
+    background: linear-gradient(#F9FF19,#FFB940);
+    border: 0;
+    color: #FF7C19;
+    opacity:0.8;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-bottom: 0;
+}
+.BRecuperar[type="submit"]{
+
+    border: 0;
+    color: black;
+    opacity:0.8;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-bottom: 0;
+}
+input[type="submit"]:hover{
+    opacity: 1;
+}
+input[type="submit"]:active{
+    transform: scale(0.95);
+}
+@media(max-width:76px){
+    form{
+        width: 75%;
+    }
+}
