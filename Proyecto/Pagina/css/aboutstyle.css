@@ -16,7 +16,8 @@ Body{
     background-repeat: no-repeat;
 }
 
-label{
+p{
     color: white;
     font-weight: bold;
+    font-size: 2em
 }
