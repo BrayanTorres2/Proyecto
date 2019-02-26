@@ -26,6 +26,7 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 1rem;
   line-height: 1.5;
+    background-image: url(pictures/Picture1.jpg);
 }
 
 .slider {
