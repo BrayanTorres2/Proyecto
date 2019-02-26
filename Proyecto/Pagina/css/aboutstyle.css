@@ -17,7 +17,13 @@ Body{
 }
 
 p{
-    color: white;
+    color: :#ffa09b;
     font-weight: bold;
     font-size: 2em
+}
+
+p2{
+    color: white;
+    font-weight: bold;
+    font-size: 1em
 }
