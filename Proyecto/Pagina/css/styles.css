@@ -19,3 +19,7 @@ Body{
     background-image: url(pictures/Picture1.jpg);
     background-repeat: no-repeat;
 }
+
+label{
+    color: white;
+}
