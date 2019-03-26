@@ -3,12 +3,13 @@
     opacity:0.7;
   background-color: #91d1ff;
   overflow: hidden;
+    display: flex;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
-  display: block;
+  display: flex;
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
@@ -32,8 +33,14 @@
 .topnav .icon {
   display: none;
 }
-
-
+/* ------------------------------------------------------------------------------------------------------------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 16px;
+    box-sizing: :border-box;
+}
 
 
 h2{ color: #ff6961;
@@ -58,4 +65,50 @@ p2{
     color: white;
     font-weight: bold;
     font-size: 1em
+}
+form{
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+    max-width: 500px;
+    background-color: rgb(0,0,);
+    opacity:;
+    padding: 30px;
+    border: 1px solid rgba(0,0,0,0,2);
+}
+.aa,.BRecuperar{
+    display: block;
+    padding: 10px;
+    width: 100%;
+    /*margin: 30px 0;*/
+    font-size: 16px;
+
+}
+.BRecuperar[type="submit"]{
+
+    border: 0;
+    color: black;
+    opacity:0.8;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-bottom: 0;
+}
+#c{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #7B726F;
+
+}
+input[type="submit"]:hover{
+    opacity: 1;
+}
+input[type="submit"]:active{
+    transform: scale(0.95);
+}
+@media(max-width:76px){
+    form{
+        width: 75%;
+    }
 }
