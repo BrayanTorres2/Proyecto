@@ -33,29 +33,52 @@
   display: none;
 }
 /* ------------------------------------------------------------------------------------------------------------------------------*/
-*{
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-    font-size: 16px;
-    box-sizing: :border-box;
+
+html {
+    font-size: 20.50px;
+    line-height: 1;
+    font-weight: 600;
+    letter-spacing: .002em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 
-
-h2{ color: #ff6961;
-    font: 'Roboto';
+h3{ color: #100F0F;
+     font-size: 2em;
     position: relative;
-    font-size: 4em;
+
+}
+#imagen1{
+margin-right: 12px;
+margin-bottom: 20px;
+shape-image-threshold: 0.5;
+shape-margin: 20px;
+float: left;
+
+
+}
+#imagen2{
+margin-right: 20px;
+margin-bottom: 20px;
+shape-image-threshold: 0.5;
+shape-margin: 20px;
+float: left;
+
 }
 
 Body{
      /* “background-color: rgb(0,0,255); opacity: 0.5;*/
+ background-attachment: fixed;
     background-image: url(pictures/PictureXD.jpg);
     background-repeat: no-repeat;
+
+    /*background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;*/
 }
 
-p{
-    color:#f9473e;
+/*p3{
+    color:#695C5C;
     font-weight: bold;
     font-size: 2em
 }
@@ -63,8 +86,9 @@ p{
 p2{
     color: white;
     font-weight: bold;
-    font-size: 1em
-}
+    font-size: 1.5em
+}*/
+
 form{
     margin-bottom: auto;
     margin-top: auto;
