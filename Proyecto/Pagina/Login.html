@@ -25,16 +25,17 @@
 </div>
 <br>
 <br>
-<form  class="ss" action="">
+<form  class="ss" action=""  onsubmit="return validar_login();">
 
    <b><h2 id="Inicio1">Iniciar sesión en Desserts </h2></b>
 
-<input class="aa"type="text" placeholder="&#128272; Usuario" name="Usuario">
-<input class="aa"type="password" placeholder="&#128273; Contraseña" name="clave">
+<input class="aa" id="usuario" type="text" placeholder="&#128272; Usuario" name="Usuario" required>
+<input class="aa" id="contraseña" type="password" placeholder="&#128273; Contraseña" name="clave" required>
 <input class="BIngresar" type="submit" value="Ingresar">
 <input class="BRecuperar" type="submit" value="Recuperar Cuenta">
     <b><a href="Registro.html" ><h7 >Registrar en Desserts</h7></a></b>
 </form>
+<script src="Page.js" type="text/javascript"></script>
 
 </body>
 <br><br><br><br><br><br>

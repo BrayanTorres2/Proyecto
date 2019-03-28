@@ -23,14 +23,15 @@
 </div>
 
        <h2 id="c">Contactenos</h2>
-      <form  class="ss" action="">
+      <form  class="ss" action="" onsubmit="return validar_contacto();">
 
-           <input class="aa" type="text" name="Nombre usuario" placeholder="Nombre usuario">
-           <input class="aa" type="text" name="Nombre Inquietud" placeholder="Nombre Inquietud">
-           <textarea class="aa" type="msg"name="Cuentanos" placeholder="Escribe tu mensaje"></textarea>
+           <input class="aa" id="nu"type="text" name="Nombre usuario" placeholder="Nombre usuario" required>
+           <input class="aa" id="ni"type="text" name="Nombre Inquietud" placeholder="Nombre Inquietud" required>
+           <textarea class="aa" id="em" type="msg"name="Cuentanos" placeholder="Escribe tu mensaje" required></textarea>
            <button class="BRecuperar" type="submit">Contactanos!</button>
 
         </form>
+        <script src="Page.js" type="text/javascript"></script>
     </body>
     <br><br><br><br><br>
  <footer class="footer">
