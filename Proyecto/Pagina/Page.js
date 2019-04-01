@@ -1,3 +1,19 @@
+/**
+ * [Funcion rechazar cambia postre]
+ */
+
+
+var num=1;
+function rechazar(){
+    num++;
+    if(num>3)
+        num=1;
+    var pic=document.getElementById("IMGPostre");
+    pic.src="foto"+num+".jpg";
+}
+
+
+
 
 function validar() {
    var expresion2 =/\w+@\w+\.+[a-z]/;
