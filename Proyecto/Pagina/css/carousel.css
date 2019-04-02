@@ -217,6 +217,23 @@ body {
   margin-bottom: 3rem;
   max-width: 300px;
 }
+#ONE{
+    background-image: url(pictures/1.jpg);
+    background-repeat:no-repeat;
+
+}
+#TWO{
+   background-image: url(pictures/2.jpg);
+   background-repeat:no-repeat;
+}
+#tres{
+    background-image: url(pictures/3.jpg);
+   background-repeat:no-repeat;
+}
+#4{
+   background-image: url(pictures/4.jpg);
+   background-repeat:no-repeat;
+}
 
 @-webkit-keyframes check {
   50% {
