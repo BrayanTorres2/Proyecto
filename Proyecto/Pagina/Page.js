@@ -12,7 +12,7 @@ var num=1;
 
 function rechazar(){
     num++;
-    if(num>3)
+    if(num>4)
         num=1;
     var pic=document.getElementById("IMGPostre");
     pic.src="foto"+num+".jpg";
@@ -27,7 +27,7 @@ function rechazar(){
 
 function gustos(){
     num++;
-    if(num>3)
+    if(num>4)
         num=1;
     var pic=document.getElementById("IMGPostre");
     ListaGustos.unshift(pic);
@@ -43,7 +43,7 @@ function gustos(){
 
 function SGustos(){
     num++;
-    if(num>3)
+    if(num>4)
         num=1;
     var pic=document.getElementById("IMGPostre");
     ListaSUGustos.unshift(pic);
