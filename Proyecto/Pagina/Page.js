@@ -4,7 +4,10 @@
 
 var ListaGustos= [];
 var ListaSUGustos= [];
+var ListaNombres=['Waffles Glaseados','Ensalada De frutas','Yogurt Artesanal','Empanada']
 var num=1;
+var xd=1;
+
 
 /**
  * [Funcion rechazar cambia postre]
@@ -15,8 +18,15 @@ function rechazar(){
     if(num>4)
         num=1;
     var pic=document.getElementById("IMGPostre");
-    pic.src="foto"+num+".jpg";
+    var namex=document.getElementById("nombresinho");
+    namex.innerHTML=ListaNombres[xd];
+    xd++;
+    if(xd>3)
+        xd=0;
+     pic.src="foto"+num+".jpg";
+
 }
+
 
 
 /**
@@ -26,10 +36,15 @@ function rechazar(){
 
 
 function gustos(){
-    num++;
+      num++;
     if(num>4)
         num=1;
     var pic=document.getElementById("IMGPostre");
+    var namex=document.getElementById("nombresinho");
+    namex.innerHTML=ListaNombres[xd];
+     xd++;
+    if(xd>3)
+        xd=0;
     ListaGustos.unshift(pic);
     pic.src="foto"+num+".jpg";
     console.log(ListaGustos.length)
@@ -42,10 +57,15 @@ function gustos(){
 
 
 function SGustos(){
-    num++;
+     num++;
     if(num>4)
         num=1;
     var pic=document.getElementById("IMGPostre");
+    var namex=document.getElementById("nombresinho");
+    namex.innerHTML=ListaNombres[xd];
+     xd++;
+    if(xd>3)
+        xd=0;
     ListaSUGustos.unshift(pic);
     pic.src="foto"+num+".jpg";
     console.log(ListaSUGustos.length)
