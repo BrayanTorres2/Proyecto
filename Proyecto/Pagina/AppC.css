@@ -81,10 +81,15 @@
 }
 /* ------------------------------------------------------------------------------------------------------------------------------*/
 #titulo{
-
-
+text-align:center;
+font-weight: bold;
 }
 #formulair{
+
+}
+#nombresinho{
+    color: #E1EF02;
+    margin: 15px;
 
 }
 #IMGPostre{
@@ -154,6 +159,7 @@ body {
 }
 .footer{
  font: normal 20px/1.5 "Helvetica Neue", sans-serif;
+    font-weight: bold;
  }
 
 
