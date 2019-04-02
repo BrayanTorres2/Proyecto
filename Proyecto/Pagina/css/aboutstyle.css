@@ -1,36 +1,36 @@
 /*NAVBAR GENERAL */
-.barra{
+.barra {
     background: #91d1ff;
-    opacity:0.7;
+    opacity: 0.7;
 }
 
-.menu_bar{
+.menu_bar {
     display: none;
 }
 
-.items_list{
+.items_list {
     overflow: hidden;
     list-style: none;
 }
 
-.items_list a{
+.items_list a {
     color: #fff;
     padding: 15px;
     display: block;
     text-decoration: none;
 }
 
-.items_list a:hover{
+.items_list a:hover {
     background: #037E8C;
     text-decoration: none;
     color: #fff;
 }
 
-.items_list span{
+.items_list span {
     margin-right: 10px;
 }
 
-.items_nav{
+.items_nav {
     float: left;
 }
 
@@ -41,35 +41,38 @@ html {
     line-height: 1;
     font-weight: 600;
     letter-spacing: .002em;
-    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 
-h3{ color: #100F0F;
-     font-size: 2em;
+h3 {
+    color: #100F0F;
+    font-size: 2em;
     position: relative;
 
 }
-#imagen1{
-margin-right: 12px;
-margin-bottom: 20px;
-shape-image-threshold: 0.5;
-shape-margin: 20px;
-float: left;
+
+#imagen1 {
+    margin-right: 12px;
+    margin-bottom: 20px;
+    shape-image-threshold: 0.5;
+    shape-margin: 20px;
+    float: left;
 
 
 }
-#imagen2{
-margin-right: 20px;
-margin-bottom: 20px;
-shape-image-threshold: 0.5;
-shape-margin: 20px;
-float: left;
+
+#imagen2 {
+    margin-right: 20px;
+    margin-bottom: 20px;
+    shape-image-threshold: 0.5;
+    shape-margin: 20px;
+    float: left;
 
 }
 
-Body{
-     /* “background-color: rgb(0,0,255); opacity: 0.5;*/
- background-attachment: fixed;
+Body {
+    /* “background-color: rgb(0,0,255); opacity: 0.5;*/
+    background-attachment: fixed;
     background-image: url(pictures/PictureXD.jpg);
     background-repeat: no-repeat;
 
@@ -91,19 +94,21 @@ p2{
     font-size: 1.5em
 }*/
 
-form{
+form {
     margin-bottom: auto;
     margin-top: auto;
     margin-left: auto;
     margin-right: auto;
     width: 65%;
     max-width: 500px;
-    background-color: rgb(0,0,);
-    opacity:;
+    background-color: rgb(0, 0, );
+    opacity: ;
     padding: 30px;
-    border: 1px solid rgba(0,0,0,0,2);
+    border: 1px solid rgba(0, 0, 0, 0, 2);
 }
-.aa,.BRecuperar{
+
+.aa,
+.BRecuperar {
     display: block;
     padding: 10px;
     width: 100%;
@@ -111,29 +116,34 @@ form{
     font-size: 16px;
 
 }
-.BRecuperar[type="submit"]{
+
+.BRecuperar[type="submit"] {
 
     border: 0;
     color: black;
-    opacity:0.8;
+    opacity: 0.8;
     cursor: pointer;
     border-radius: 20px;
     margin-bottom: 0;
 }
-#c{
+
+#c {
     text-align: center;
     margin-bottom: 20px;
     color: #7B726F;
 
 }
-input[type="submit"]:hover{
+
+input[type="submit"]:hover {
     opacity: 1;
 }
-input[type="submit"]:active{
+
+input[type="submit"]:active {
     transform: scale(0.95);
 }
-@media(max-width:76px){
-    form{
+
+@media(max-width:76px) {
+    form {
         width: 75%;
     }
 }
