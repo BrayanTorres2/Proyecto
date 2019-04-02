@@ -8,14 +8,24 @@
 </head>
 <body id="RB">
   <br><br><br><br><br><br><br><br><br><br>
-   <form id="R" action="">
+   <form  id="R" action="Login.html" mothod="post" class="from-registrar" onsubmit="return validar();">
        <h3 id="qq">Registro</h3>
-       <input class="i"type="text" name="Nombre usuario" placeholder="Nombre usuario">
-       <input class="i" type="text" name="Contraseña" placeholder="Contraseña">
-       <input class="i"type="text" name="Confirmar contraseña" placeholder="Confirmar contraseña">
-       <input class="i"type="email" name="Correo electronico" placeholder="Correo electronico">
-        <label id="oo"><input id="checkbox"type="checkbox" vale="Terminos y condiciones">  Terminos y condiciones</label>
-      <input id="boton" type="button" Value="Registrar" >
+       <div id=gg><input class="i" id="NU" type="text" name="Nombre usuario" placeholder="Nombre usuario" required></div>
+       <input class="i" id="NC" type="text" name="Contraseña" placeholder="Contraseña"required >
+       <input class="i" id="CC" type="text" name="Confirmar contraseña" placeholder="Confirmar contraseña"required >
+       <input class="i" id="CE" type="email"  name="Correo electronico" placeholder="Correo electronico" required>
+        <label id="oo"><input id="checkbox"type="checkbox" vale="Terminos y condiciones" required>  Terminos y condiciones</label>
+      <input id="boton" type="Submit" Value="Registrar" >
     </form>
+
+
+
+   <script src="Page.js" type="text/javascript"></script>
+
+
+
+
+
+
 </body>
 </html>
