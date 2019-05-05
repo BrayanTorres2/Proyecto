@@ -25,7 +25,7 @@
                 <li class="items_nav"><a href=AcercaDe.html>Acerca De</a></li>
                 <li class="items_nav"><a href=Team.html>Equipo</a></li>
                 <li class="items_nav"><a href=Contacto.html>Contacto</a></li>
-                <li class="items_nav"><a href=Login.html>Ingresar</a></li>
+                <li class="items_nav"><a href=Login.php>Ingresar</a></li>
             </ul>
         </nav>
     </header>
