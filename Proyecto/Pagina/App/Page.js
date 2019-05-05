@@ -119,3 +119,6 @@ function validar_contacto() {
     }
 
 }
+function MostrarLista(){
+    alert(ListaGustos.size)
+}

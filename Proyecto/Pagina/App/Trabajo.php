@@ -19,7 +19,8 @@
 
         <nav class="barra">
             <ul class="items_list">
-                <li class="items_nav"><a href="Login.html">Salir</a></li>
+               <li class="items_nav"><a href=lista.html>Inicio</a></li>
+                <li class="items_nav"><a href="../Login.php">Salir</a></li>
             </ul>
         </nav>
     </header>
