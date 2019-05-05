@@ -25,6 +25,25 @@
     </header>
     <br>
 
+    <!-------------------------------------------------PHP------------------------------------------------------------->
+    <?php
+    $pass=[
+        "brayan"=>"Torres",
+        "SEBASTIAN"=>"SANCHEZ",
+        "fabian"=>"meza",
+        ];
+    if(isset($pass[$_POST['usuario']])){
+        if($pass[$_POST['usuario']]==$_POST['contraseña']){
+            echo 'Bienvenido a Desserst';
+        }
+        else{
+            echo 'contraseña incorrecta'
+        }
+        else{
+            echo 'Usuario no encontrado';
+        }
+    }
+    ?>
     <!-------------------------------------------------APP------------------------------------------------------------->
     <form name="f1" id="formulair">
         <b>

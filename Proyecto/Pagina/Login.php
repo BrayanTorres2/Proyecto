@@ -31,7 +31,7 @@
     </header>
     <br><br><br>
     <!-------------------------------------------------Login------------------------------------------------------------->
-    <form class="ss" action="Trabajo.html" onsubmit="return validar_login();">
+    <form class="ss" action="App/Trabajo.php" onsubmit="return validar_login();">
 
         <b>
             <h2 id="Inicio1">Iniciar sesión en Desserts </h2>
