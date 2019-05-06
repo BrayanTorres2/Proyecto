@@ -7,9 +7,9 @@
 <body>
     <?php
    $pass = [
-    "jose" => "cordoba",
-    "manuel" => "castillo",
-    "krusty" => "ean",
+    "brayan" => "torres",
+    "sebastian" => "sanchez",
+    "fabian" => "meza",
     ];
     if (isset($pass[$_GET['usser']])){
         if ($pass[$_GET['usser']] == $_GET['pass']){
