@@ -37,6 +37,24 @@
        <input class="aa" id="contraseña" type="password" placeholder="&#128273; Contraseña" name="clave" required>
        <button type="submit" class="BIngresar" id="validateButton" >Ingresar</button>
     </form>
+    <?php
+$pass=[
+        "brayan"=>"Torres",
+        "SEBASTIAN"=>"SANCHEZ",
+        "fabian"=>"meza",
+        ];
+    if(isset($pass[$_GET['name']])){
+        if($pass[$_GET['name']]==$_GET['contraseña']){
+            echo 'Bienvenido a Desserst';
+        }
+        else{
+            echo 'contraseña incorrecta'
+        }
+        else{
+            echo 'Usuario no encontrado';
+        }
+    }
+?>
     <br><br><br><br><br><br><br><br><br><br><br>
     </body>
     <footer class="footer">
