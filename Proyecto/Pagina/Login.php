@@ -35,7 +35,7 @@
     <form name="validar" action="App/Trabajo.php" id="formuValidacion">
        <input class="aa" id="name" type="text" placeholder="&#128272; Usuario" name="Usuario">
        <input class="aa" id="contraseña" type="password" placeholder="&#128273; Contraseña" name="clave">
-       <button type="button" class="BIngresar" id="validateButton" onClick="validacion();" onmouseup="location='App/Trabajo.php'">Ingresar</button>
+       <button type="button" class="BIngresar" id="validateButton" onClick="validacion();" >Ingresar</button>
     </form>
     <br><br><br><br><br><br><br><br><br><br><br>
     </body>
