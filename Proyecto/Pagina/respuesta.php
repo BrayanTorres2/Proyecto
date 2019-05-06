@@ -6,11 +6,7 @@
 </head>
 <body>
     <?php
-    $pass = [
-    "jose" => "cordoba",
-    "manuel" => "castillo",
-    "krusty" => "ean",
-    ];
+
     if (isset($pass[$_GET['usser']])){
         if ($pass[$_GET['usser']] == $_GET['pass']){
             echo href="App/Trabajo.html";
