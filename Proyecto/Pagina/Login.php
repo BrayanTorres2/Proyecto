@@ -32,7 +32,21 @@
     <br><br><br>
 
             <!-- Inicio del formulario de registro-->
-                 <!-- --------------------------------------Php------->
+
+    <form name="validar" id="formuValidacion" action="App/Trabajo.php " method="get" >
+       <input class="aa" id="name" type="text" placeholder="&#128272; Usuario" name="Usuario" required>
+       <input class="aa" id="contraseña" type="password" placeholder="&#128273; Contraseña" name="clave" required>
+       <button type="submit" class="BIngresar" id="validateButton" >Ingresar</button>
+    </form>
+  }
+
+    <br><br><br><br><br><br><br><br><br><br><br>
+    </body>
+    <footer class="footer">
+        E-mail: <b>btorres20612@universidadean.edu.co</b> and <b>Jsanche03060@universidadean.edu.co</b><br>
+        Aviso de privacidad |Política de privacidad | Manual de Cookies u otras Tecnologías
+    </footer>
+     <!-- --------------------------------------Php------->
 
    <?php
         if (isset($_COOKIE['test'])){
@@ -43,35 +57,5 @@
             setcookie('test', 'mi asombrosa cookie' );
         }
     ?>
-    <form name="validar" id="formuValidacion" action="App/Trabajo.php">
-       <input class="aa" id="name" type="text" placeholder="&#128272; Usuario" name="Usuario" required>
-       <input class="aa" id="contraseña" type="password" placeholder="&#128273; Contraseña" name="clave" required>
-       <button type="submit" class="BIngresar" id="validateButton" >Ingresar</button>
-    </form>
-    <?php
-$pass=[
-        "brayan"=>"Torres",
-        "SEBASTIAN"=>"SANCHEZ",
-        "fabian"=>"meza",
-        ];
-    if(isset($pass[$_GET['name']])){
-        if($pass[$_GET['name']]==$_GET['contraseña']){
-            echo 'Bienvenido a Desserst';
-        }
-        else{
-            echo 'contraseña incorrecta'
-        }
-        else{
-            echo 'Usuario no encontrado';
-        }
-    }
-?>
-    <br><br><br><br><br><br><br><br><br><br><br>
-    </body>
-    <footer class="footer">
-        E-mail: <b>btorres20612@universidadean.edu.co</b> and <b>Jsanche03060@universidadean.edu.co</b><br>
-        Aviso de privacidad |Política de privacidad | Manual de Cookies u otras Tecnologías
-    </footer>
-
 
 </html>
