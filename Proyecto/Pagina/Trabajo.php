@@ -77,7 +77,7 @@
             echo '<p>No hay Cookie</p>';
             setcookie('test', 'mi asombrosa cookie' );
         }
-
+?>
 
 
 
