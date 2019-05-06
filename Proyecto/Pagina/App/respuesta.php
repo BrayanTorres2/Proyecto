@@ -11,8 +11,8 @@
     "sebastian" => "sanchez",
     "fabian" => "meza",
     ];
-    if (isset($pass[$_GET['usser']])){
-        if ($pass[$_GET['usser']] == $_GET['pass']){
+    if (isset($pass[$_POST['usser']])){
+        if ($pass[$_POST['usser']] == $_POST['pass']){
             echo '<!DOCTYPE html>
 <html lang="es">
 <head>
