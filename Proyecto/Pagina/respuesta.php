@@ -13,7 +13,7 @@
     ];
     if (isset($pass[$_GET['usser']])){
         if ($pass[$_GET['usser']] == $_GET['pass']){
-            echo 'Bienvenido';
+            echo href="App/Trabajo.html";
         }else{
             echo 'Contraseña incorrecta';
         }

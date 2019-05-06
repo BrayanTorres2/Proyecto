@@ -38,7 +38,7 @@
        <input class="aa" id="contraseña" type="password" placeholder="&#128273; Contraseña" name="clave" required>
        <button type="submit" class="BIngresar" id="validateButton" value="Enviar" >Ingresar</button>
     </form>
-  }
+
 
     <br><br><br><br><br><br><br><br><br><br><br>
     </body>

@@ -33,7 +33,7 @@
     <form action="respuesta.php" method="get">
         <input class="aa" id="usser"type="text" placeholder="&#128272; Usuario" name="Usuario">
         <input class="aa" name="ass" id="pass" type="password" placeholder="&#128273; Contraseña" name="clave" >
-        <input type="submit" value="Enviar">
+        <button type="submit" class="BIngresar" id="validateButton" value="Enviar" >Ingresar</button>
     </form>
 
     <br><br><br><br><br><br><br><br><br><br><br>
