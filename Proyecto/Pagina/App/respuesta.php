@@ -73,21 +73,21 @@
 
 </html>';
         }else{
-            echo 'lol';
+            echo 'contraseña equivocada lol';
         }
     }else{
         echo '
         <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Login</title>
+    <title>*Chask*</title>
     <meta charset="UTF-8">
 
 </head>
 
     <body id="Login">
-    window.alert("El usuario no existe");
-    alert("El usuario no existe");
+    Thanos evaporo al usuario... no existe
+    <img src="https://cdn.20m.es/img2/recortes/2019/04/29/940221-600-338.jpg"/>
     </body>
 
 
