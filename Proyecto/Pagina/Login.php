@@ -33,7 +33,7 @@
 
             <!-- Inicio del formulario de registro-->
 
-    <form name="validar" id="formuValidacion" action="App/Trabajo.php " method="get" >
+    <form  action="App/Trabajo.php " method="get" >
        <input class="aa" id="name" type="text" placeholder="&#128272; Usuario" name="Usuario" required>
        <input class="aa" id="contraseña" type="password" placeholder="&#128273; Contraseña" name="clave" required>
        <button type="submit" class="BIngresar" id="validateButton" value="Enviar" >Ingresar</button>
