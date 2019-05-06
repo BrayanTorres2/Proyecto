@@ -10,47 +10,7 @@
 
 <body>
 
-    <!-- navbar -->
-    <header class="nav_bar fixed-top">
-
-        <div class="menu_bar">
-            <p href="#" class="boton_menu"><span class="icon-menu"></span>Menu</p>
-        </div>
-
-        <nav class="barra">
-            <ul class="items_list">
-               <li class="items_nav"><a href=lista.html>Lista de Gustos</a></li>
-                <li class="items_nav"><a href="../Login.php">Salir</a></li>
-            </ul>
-        </nav>
-    </header>
-    <br>
-
-
-    <form name="f1" id="formulair">
-        <b>
-            <h1 id="titulo">Dessert</h1>
-        </b>
-        <div id="ps">
-            <img src="foto1.jpg" id="IMGPostre">
-            <b>
-                <article>
-                    <h2 id="nombresinho">Waffles Glaseados</h2>
-                </article>
-            </b>
-            <div class="boxes">
-                <input type="button" id="R" class="botones" value="" onclick="rechazar()">
-                <input type="button" id="G" class="botones" value="" onclick="SGustos()">
-                <input type="button" id="SG" class="botones" value="" onclick="gustos()">
-            </div>
-        </div>
-    </form>
-</body>
-<br><br><br>
-<footer class="footer">
-    Disfruta nosotros hacemos el resto &#128521;
-</footer>
- <!-------------------------------------------------PHP------------------------------------------------------------->
+    <!-------------------------------------------------PHP------------------------------------------------------------->
  <?php
 $pass=[
         "brayan"=>"Torres",
@@ -68,6 +28,12 @@ $pass=[
             echo 'Usuario no encontrado';
         }
    ?>
+</body>
+<br><br><br>
+<footer class="footer">
+    Disfruta nosotros hacemos el resto &#128521;
+</footer>
+
 
 
 </html>
