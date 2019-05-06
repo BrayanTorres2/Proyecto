@@ -79,7 +79,17 @@
         echo '
         <!DOCTYPE html>
 <html lang="en">
-window.alert("El usuario no existe")
+<head>
+    <title>Login</title>
+    <meta charset="UTF-8">
+
+</head>
+
+    <body id="Login">
+    window.alert("El usuario no existe");
+    alert("El usuario no existe");
+    </body>
+
 
 </html>';
     }
