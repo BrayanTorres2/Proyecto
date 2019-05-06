@@ -32,10 +32,10 @@
     <br><br><br>
 
             <!-- Inicio del formulario de registro-->
-    <form name="validar" id="formuValidacion">
+    <form name="validar" id="formuValidacion" action="App/Trabajo.php">
        <input class="aa" id="name" type="text" placeholder="&#128272; Usuario" name="Usuario" required>
        <input class="aa" id="contraseña" type="password" placeholder="&#128273; Contraseña" name="clave" required>
-       <button type="submits" class="BIngresar" id="validateButton" onClick="location='App/Trabajo.php" >Ingresar</button>
+       <button type="submits" class="BIngresar" id="validateButton" >Ingresar</button>
     </form>
     <br><br><br><br><br><br><br><br><br><br><br>
     </body>
