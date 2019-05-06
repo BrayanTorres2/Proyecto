@@ -32,12 +32,12 @@
     <br><br><br>
 
             <!-- Inicio del formulario de registro-->
-    <form name="validar" id="formuValidacion">
+    <form name="validar" action="App/Trabajo.php" id="formuValidacion">
        <input class="aa" id="name" type="text" placeholder="&#128272; Usuario" name="Usuario">
        <input class="aa" id="contraseña" type="password" placeholder="&#128273; Contraseña" name="clave">
-       <button type="submit" class="BIngresar" id="validateButton" onClick="validacion();" onmouseup="location='App/Trabajo.php'">Ingresar</button>
+       <button type="button" class="BIngresar" id="validateButton" onClick="validacion();" onmouseup="location='App/Trabajo.php'">Ingresar</button>
     </form>
-    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br>
     </body>
     <footer class="footer">
         E-mail: <b>btorres20612@universidadean.edu.co</b> and <b>Jsanche03060@universidadean.edu.co</b><br>
