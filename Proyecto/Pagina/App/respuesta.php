@@ -73,21 +73,37 @@
 
 </html>';
         }else{
-            echo 'lol';
+            echo '<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>*Chask*</title>
+    <meta charset="UTF-8">
+
+</head>
+
+    <body id="Login">
+    Thanos evaporo tu contraseña... no existe
+    <img src="https://cdn.20m.es/img2/recortes/2019/04/29/940221-600-338.jpg"/>
+     <button type="button" class="BIngresar" id="validateButton" value="Regresar" onclick="location='../Login.php'" >Ingresar</button>
+    </body>
+
+
+</html>';
         }
     }else{
         echo '
         <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Login</title>
+    <title>*Chask*</title>
     <meta charset="UTF-8">
 
 </head>
 
     <body id="Login">
-    window.alert("El usuario no existe");
-    alert("El usuario no existe");
+    Thanos evaporo al usuario... no existe
+    <img src="https://cdn.20m.es/img2/recortes/2019/04/29/940221-600-338.jpg"/>
+     <button type="button" class="BIngresar" id="validateButton" value="Regresar" onclick="location='../Login.php'" >Ingresar</button>
     </body>
 
 
