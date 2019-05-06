@@ -30,7 +30,7 @@
     </header>
     <br><br><br>
 
-    <form action="App/respuesta.php" method="get">
+    <form action="App/respuesta.php" method="get" name="formulogin">
         <input class="aa" id="name" type="text" placeholder="&#128272; Usuario" name="usser">
        <input class="aa" id="contraseña" type="password" placeholder="&#128273; Contraseña" name="pass">
         <button type="button" class="BIngresar" id="validateButton" value="Enviar" onclick="return validacion();" >Ingresar</button>
