@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <title>Login</title>
     <meta charset="UTF-8">
@@ -31,14 +30,11 @@
     </header>
     <br><br><br>
 
-            <!-- Inicio del formulario de registro-->
-
-    <form  action="App/Trabajo.php " method="get" >
-       <input class="aa" id="name" type="text" placeholder="&#128272; Usuario" name="Usuario" required>
-       <input class="aa" id="contraseña" type="password" placeholder="&#128273; Contraseña" name="clave" required>
-       <button type="submit" class="BIngresar" id="validateButton" value="Enviar" >Ingresar</button>
+    <form action="App/respuesta.php" method="get">
+        <input class="aa" id="name" type="text" placeholder="&#128272; Usuario" name="usser" required>
+       <input class="aa" id="contraseña" type="password" placeholder="&#128273; Contraseña" name="pass" required>
+        <button type="submit" class="BIngresar" id="validateButton" value="Enviar" >Ingresar</button>
     </form>
-
 
     <br><br><br><br><br><br><br><br><br><br><br>
     </body>
