@@ -60,7 +60,24 @@
             setcookie('test', 'mi asombrosa cookie' );
         }
 ?>
-
+<?php
+$pass=[
+        "brayan"=>"Torres",
+        "SEBASTIAN"=>"SANCHEZ",
+        "fabian"=>"meza",
+        ];
+    if(isset($pass[$_POST['usuario']])){
+        if($pass[$_POST['usuario']]==$_POST['contraseña']){
+            echo 'Bienvenido a Desserst';
+        }
+        else{
+            echo 'contraseña incorrecta'
+        }
+        else{
+            echo 'Usuario no encontrado';
+        }
+    }
+?>
 
 
 </html>
