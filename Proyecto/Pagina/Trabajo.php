@@ -52,24 +52,6 @@
 </footer>
  <!-------------------------------------------------PHP------------------------------------------------------------->
     <?php
-    $pass=[
-        "brayan"=>"Torres",
-        "SEBASTIAN"=>"SANCHEZ",
-        "fabian"=>"meza",
-        ];
-    if(isset($pass[$_POST['usuario']])){
-        if($pass[$_POST['usuario']]==$_POST['contraseña']){
-            echo 'Bienvenido a Desserst';
-        }
-        else{
-            echo 'contraseña incorrecta'
-        }
-        else{
-            echo 'Usuario no encontrado';
-        }
-    }
-
-
         if (isset($_COOKIE['test'])){
             echo '<p>Hay Cookie</p>';
             setcookie('test', '', time() - 3600);
