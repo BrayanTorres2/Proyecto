@@ -71,6 +71,15 @@ function SGustos() {
     console.log(ListaSUGustos.length)
 }
 
+/**
+ * [Funcion retornar gustos]
+ * [return gustos como string]
+ */
+
+function devolvgustos(){
+    return ListaGustos.length.toString
+}
+
 
 
 /**
