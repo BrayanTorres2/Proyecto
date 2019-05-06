@@ -22,7 +22,7 @@
             <ul class="items_list">
                 <li class="items_nav"><a href=index.php>Inicio</a></li>
                 <li class="items_nav"><a href=AcercaDe.php>Acerca De</a></li>
-                <li class="items_nav"><a href=Team.phpl>Equipo</a></li>
+                <li class="items_nav"><a href=Team.php>Equipo</a></li>
                 <li class="items_nav"><a href=Contacto.php>Contacto</a></li>
                 <li class="items_nav"><a href=Login.php>Ingresar</a></li>
             </ul>
