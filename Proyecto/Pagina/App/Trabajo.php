@@ -57,8 +57,8 @@ $pass=[
         "SEBASTIAN"=>"SANCHEZ",
         "fabian"=>"meza",
         ];
-    if(isset($pass[$_POST['usuario']])){
-        if($pass[$_POST['usuario']]==$_POST['contraseña']){
+    if(isset($pass[$_GET['usuario']])){
+        if($pass[$_GET['usuario']]==$_GET['contraseña']){
             echo 'Bienvenido a Desserst';
         }
         else{
