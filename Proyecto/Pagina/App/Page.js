@@ -141,8 +141,6 @@ function MostrarLista(){
 
      } else if (contraseñaUsuario.length > 0 && contraseñaUsuario.length < 8) {
          alert('El campo de contraseña debe contener minimo 8 caracteres!')
-     } else{
-
      }
      return true;
  }
