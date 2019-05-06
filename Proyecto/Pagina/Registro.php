@@ -23,6 +23,16 @@
 
     <script src="Page.js" type="text/javascript"></script>
 
+ <!-------------------------------------------------PHP------------------------------------------------------------->
+   <?php
+        if (isset($_COOKIE['test'])){
+            echo '<p>Hay Cookie</p>';
+            setcookie('test', '', time() - 3600);
+        }else {
+            echo '<p>No hay Cookie</p>';
+            setcookie('test', 'mi asombrosa cookie' );
+        }
+    ?>
 
 
 
