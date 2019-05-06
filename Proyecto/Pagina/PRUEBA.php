@@ -31,8 +31,8 @@
     <br><br><br>
 
     <form action="respuesta.php" method="get">
-        <input type="text" name="uer" id="usser" placeholder="Usuario">
-        <input type="password" name="ss" id="pass" placeholder="Contraseña">
+        <input type="text" name="usser" id="ur" placeholder="Usuario">
+        <input type="password" name="pass" id="s" placeholder="Contraseña">
         <button type="submit" class="BIngresar" id="validateButton" value="Enviar" >Ingresar</button>
     </form>
 
