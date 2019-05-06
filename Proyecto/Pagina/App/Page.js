@@ -139,8 +139,8 @@ function MostrarLista(){
      } else if (contraseñaUsuario.length == 0 || /^\s+$/.test(contraseñaUsuario)) {
          alert('El campo de contraseña esta vacio!');
 
-     } else if (contraseñaUsuario.length > 0 && contraseñaUsuario.length < 8) {
-         alert('El campo de contraseña debe contener minimo 8 caracteres!')
+     } else if (contraseñaUsuario.length > 0 && contraseñaUsuario.length < 4) {
+         alert('El campo de contraseña debe contener minimo 4 caracteres!')
      }else{
          document.formulogin.submit();
      }
