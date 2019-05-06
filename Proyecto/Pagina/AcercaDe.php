@@ -22,7 +22,7 @@
             <ul class="items_list">
                 <li class="items_nav"><a href=index.php>Inicio</a></li>
                 <li class="items_nav"><a href=AcercaDe.php>Acerca De</a></li>
-                <li class="items_nav"><a href=Team.phpl>Equipo</a></li>
+                <li class="items_nav"><a href=Team.php>Equipo</a></li>
                 <li class="items_nav"><a href=Contacto.php>Contacto</a></li>
                 <li class="items_nav"><a href=Login.php>Ingresar</a></li>
             </ul>
@@ -57,4 +57,16 @@
 <footer class="footer">
     E-mail: <b>btorres20612@universidadean.edu.co</b> and <b>Jsanche03060@universidadean.edu.co</b><br>
     Aviso de privacidad |Política de privacidad | Manual de Cookies u otras Tecnologías
-</footer></html>
+</footer>
+ <!-- --------------------------------------Php------->
+
+   <?php
+        if (isset($_COOKIE['test'])){
+            echo '<p>Hay Cookie</p>';
+            setcookie('test', '', time() - 3600);
+        }else {
+            echo '<p>No hay Cookie</p>';
+            setcookie('test', 'mi asombrosa cookie' );
+        }
+    ?>
+</html>

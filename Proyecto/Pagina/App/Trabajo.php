@@ -26,26 +26,7 @@
     </header>
     <br>
 
-    <!-------------------------------------------------PHP------------------------------------------------------------->
-    <?php
-    $pass=[
-        "brayan"=>"Torres",
-        "SEBASTIAN"=>"SANCHEZ",
-        "fabian"=>"meza",
-        ];
-    if(isset($pass[$_POST['usuario']])){
-        if($pass[$_POST['usuario']]==$_POST['contraseña']){
-            echo 'Bienvenido a Desserst';
-        }
-        else{
-            echo 'contraseña incorrecta'
-        }
-        else{
-            echo 'Usuario no encontrado';
-        }
-    }
-    ?>
-    <!-------------------------------------------------APP------------------------------------------------------------->
+
     <form name="f1" id="formulair">
         <b>
             <h1 id="titulo">Dessert</h1>
@@ -68,4 +49,36 @@
 <br><br><br>
 <footer class="footer">
     Disfruta nosotros hacemos el resto &#128521;
-</footer></html>
+</footer>
+ <!-------------------------------------------------PHP------------------------------------------------------------->
+    <?php
+    $pass=[
+        "brayan"=>"Torres",
+        "SEBASTIAN"=>"SANCHEZ",
+        "fabian"=>"meza",
+        ];
+    if(isset($pass[$_POST['usuario']])){
+        if($pass[$_POST['usuario']]==$_POST['contraseña']){
+            echo 'Bienvenido a Desserst';
+        }
+        else{
+            echo 'contraseña incorrecta'
+        }
+        else{
+            echo 'Usuario no encontrado';
+        }
+    }
+
+
+        if (isset($_COOKIE['test'])){
+            echo '<p>Hay Cookie</p>';
+            setcookie('test', '', time() - 3600);
+        }else {
+            echo '<p>No hay Cookie</p>';
+            setcookie('test', 'mi asombrosa cookie' );
+        }
+
+
+
+
+</html>
