@@ -51,16 +51,24 @@
     Disfruta nosotros hacemos el resto &#128521;
 </footer>
  <!-------------------------------------------------PHP------------------------------------------------------------->
-    <?php
-        if (isset($_COOKIE['test'])){
-            echo '<p>Hay Cookie</p>';
-            setcookie('test', '', time() - 3600);
-        }else {
-            echo '<p>No hay Cookie</p>';
-            setcookie('test', 'mi asombrosa cookie' );
+<?php
+$pass=[
+        "brayan"=>"Torres",
+        "SEBASTIAN"=>"SANCHEZ",
+        "fabian"=>"meza",
+        ];
+    if(isset($pass[$_POST['usuario']])){
+        if($pass[$_POST['usuario']]==$_POST['contraseña']){
+            echo 'Bienvenido a Desserst';
         }
+        else{
+            echo 'contraseña incorrecta'
+        }
+        else{
+            echo 'Usuario no encontrado';
+        }
+    }
 ?>
-
 
 
 </html>
