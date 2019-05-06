@@ -31,9 +31,9 @@
     <br><br><br>
 
     <form action="App/respuesta.php" method="get">
-        <input class="aa" id="name" type="text" placeholder="&#128272; Usuario" name="usser" required>
-       <input class="aa" id="contraseña" type="password" placeholder="&#128273; Contraseña" name="pass" required>
-        <button type="submit" class="BIngresar" id="validateButton" value="Enviar" >Ingresar</button>
+        <input class="aa" id="name" type="text" placeholder="&#128272; Usuario" name="usser">
+       <input class="aa" id="contraseña" type="password" placeholder="&#128273; Contraseña" name="pass">
+        <button type="submit" class="BIngresar" id="validateButton" value="Enviar" onclick="validacion();" >Ingresar</button>
     </form>
 
     <br><br><br><br><br><br><br><br><br><br><br>
