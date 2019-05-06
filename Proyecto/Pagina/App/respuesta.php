@@ -73,9 +73,10 @@
 
 </html>';
         }else{
-            echo 'alert("Tu contraseña es incorrecta papu")
+            echo '
         <!DOCTYPE html>
 <html lang="en">
+alert("Tu contraseña es incorrecta papu")
 <head>
     <title>Login</title>
     <meta charset="UTF-8">
