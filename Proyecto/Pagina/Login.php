@@ -32,24 +32,8 @@
     <br><br><br>
 
             <!-- Inicio del formulario de registro-->
-               <?php
-$pass=[
-        "brayan"=>"Torres",
-        "SEBASTIAN"=>"SANCHEZ",
-        "fabian"=>"meza",
-        ];
-    if(isset($pass[$_GET['name']])){
-        if($pass[$_GET['name']]==$_GET['contraseña']){
-            echo 'Bienvenido a Desserst';
-        }
-        else{
-            echo 'contraseña incorrecta'
-        }
-        else{
-            echo 'Usuario no encontrado';
-        }
-   ?>
-    <form name="validar" id="formuValidacion" >
+
+    <form name="validar" id="formuValidacion" action="App/Trabajo.php " method="get" >
        <input class="aa" id="name" type="text" placeholder="&#128272; Usuario" name="Usuario" required>
        <input class="aa" id="contraseña" type="password" placeholder="&#128273; Contraseña" name="clave" required>
        <button type="submit" class="BIngresar" id="validateButton" >Ingresar</button>
