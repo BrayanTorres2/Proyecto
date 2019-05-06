@@ -5,12 +5,6 @@
     <title>Mostrar gustos</title>
 </head>
 <body>
-  <?php
 
-echo "<script>";
-echo "MiFuncionJS();";
-echo "</script>";
-
-?>
 </body>
 </html>
