@@ -10,6 +10,7 @@
     $ar = fopen("datos.txt", "a") or die("datos no creados");
     fputs($ar, "devolvgustos()");
     fclose($ar);
+    echo "the end mate";
     ?>
 </body>
 </html>
