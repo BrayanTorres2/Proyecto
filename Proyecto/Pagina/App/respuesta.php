@@ -6,6 +6,7 @@
 </head>
 <body>
     <?php
+    session_start();
    $pass = [
     "brayan" => "torres",
     "sebastian" => "sanchez",
@@ -13,7 +14,7 @@
     ];
     if (isset($pass[$_POST['usser']])){
         if ($pass[$_POST['usser']] == $_POST['pass']){
-            echo session_start() '<!DOCTYPE html>
+            echo '<!DOCTYPE html>
 <html lang="es">
 <head>
 
