@@ -35,7 +35,7 @@
 
         <nav class="barra">
             <ul class="items_list">
-               <li class="items_nav"><a href=lista.html>Lista de Gustos</a></li>
+               <li class="items_nav"><a href=lista.php>Lista de Gustos</a></li>
                 <li class="items_nav"><a href="../Login.php">Salir</a></li>
             </ul>
         </nav>
