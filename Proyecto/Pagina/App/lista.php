@@ -7,7 +7,7 @@
 <br><br><br><br><br><br><br>
 <body>
 <form>
-<button type="button" id="botonlistagus" value="Enviar"
+<button type="button" width="100" height="100" id="botonlistagus" value="Enviar"
 onclick="return devolvgustos()"></button>
 </form>
 </body>
