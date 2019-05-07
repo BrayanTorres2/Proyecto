@@ -13,7 +13,7 @@
     ];
     if (isset($pass[$_POST['usser']])){
         if ($pass[$_POST['usser']] == $_POST['pass']){
-            echo '<!DOCTYPE html>
+            echo session_start() '<!DOCTYPE html>
 <html lang="es">
 <head>
 
