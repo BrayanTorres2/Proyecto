@@ -60,6 +60,16 @@
                 <input type="button" id="G" class="botones" value="" onclick="SGustos()">
                 <input type="button" id="SG" class="botones" value="" onclick="gustos()">
             </div>
+
+
+            <form method="post" action="lista.php">
+            <div>
+                <input type="submit" value="guardar listas">
+            </div>
+            </form>
+
+
+
         </div>
     </form>
     <!-------------------------------------------------PHP------------------------------------------------------------->
