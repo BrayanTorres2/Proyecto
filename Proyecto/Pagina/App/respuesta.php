@@ -64,7 +64,7 @@
 
             <form method="post" action="lista.php">
             <div>
-                <input type="submit" value="guardar listas">
+                <input type="button" value="guardar listas">
             </div>
             </form>
 
