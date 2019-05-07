@@ -41,7 +41,6 @@
 
         <nav class="barra">
             <ul class="items_list">
-               <li class="items_nav"><a href=lista.php>Lista de Gustos</a></li>
                 <li class="items_nav"><a href="../Login.php">Salir</a></li>
             </ul>
         </nav>
@@ -65,16 +64,6 @@
                 <input type="button" id="G" class="botones" value="" onclick="SGustos()">
                 <input type="button" id="SG" class="botones" value="" onclick="gustos()">
             </div>
-
-
-            <form method="post" action="lista.php">
-            <div>
-                <input type="button" value="guardar listas">
-            </div>
-            </form>
-
-
-
         </div>
     </form>
     <!-------------------------------------------------PHP------------------------------------------------------------->
