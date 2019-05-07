@@ -14,6 +14,11 @@
     ];
     if (isset($pass[$_POST['usser']])){
         if ($pass[$_POST['usser']] == $_POST['pass']){
+            if(!isset($_SESSION["cuenta_paginas"])){
+                $_SESSION["cuenta_paginas"]=1;
+            }else{
+              $_SESSION["cuenta_paginas"]++;
+            }
             echo '<!DOCTYPE html>
 <html lang="es">
 <head>
