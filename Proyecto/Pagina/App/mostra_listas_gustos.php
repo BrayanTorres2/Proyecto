@@ -17,7 +17,7 @@ fclose($archivo);
 
 <body>
     <?php
-        echo 'Sus Gustos '.$archivo;
+        echo 'Sus postres han sido guardados';
     ?>
 </body>
 
