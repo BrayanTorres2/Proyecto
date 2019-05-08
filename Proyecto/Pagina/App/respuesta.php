@@ -71,9 +71,9 @@
     <input type="button" id="capturar" value="capturar" onclick="Final()">
     <form action="mostra_lista_gustos" method="get">
         <input type="submit" id="enviar" value="enviar" onclick="Final()">
-        <input type="text" name="user" id="user" placeholder="Ingresa tu usuario">
-        <p id="demo2"></p>
-        <p id="demo3"></p>
+        <input type="text" name="user2" id="user2" placeholder="Ingresa tu usuario">
+        <p id="demo2" name="demo2"></p>
+        <p id="demo3" name="demo3"></p>
     </form>
 
     <!-------------------------------------------------PHP------------------------------------------------------------->
