@@ -67,7 +67,7 @@
             <div class="boxes">
 
 
-                <input type="button" id="R" class="botones" value="" onclick="rechazar()">
+                <input type="button" id="R" class="botones" value="" onclick="spuds()">
                 <input type="button" id="G" class="botones" value="" onclick="SGustos()">
                 <input type="button" id="SG" class="botones" value="" onclick="gustos()">
         </div>
