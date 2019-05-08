@@ -47,7 +47,7 @@
     </header>
     <br>
 
-   <form action="mostrar_listas_gustos" method="get">
+   <form  method="get">
           <input type="button" id="php" class="" value="Capturar" onclick="Final()">
           <input type="submit" id="enviar" value="enviar">
           <p id="demo1"></p>
