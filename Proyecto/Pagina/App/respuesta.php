@@ -47,9 +47,19 @@
     </header>
     <br>
 
-          <input type="button" id="enviar" value="enviar" onclick="Final()">
+
+
+
+    <input type="button" id="capturar" value="capturar" onclick="Final()">
+    <form action="mostra_lista_gustos" method="get">
+    <input type="submit" id="enviar" value="enviar" onclick="Final()">
+    <input type="text" name="user" id="user" placeholder="Ingresa tu usuario">
           <p id="demo2">hi2</p>
           <p id="demo3">hi3</p>
+        </form>
+
+
+
 
     <form name="f1" id="formulair">
         <b>
