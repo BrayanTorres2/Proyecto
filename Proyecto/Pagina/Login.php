@@ -34,6 +34,7 @@
         <input class="aa" id="name" type="text" placeholder="&#128272; Usuario" name="usser">
        <input class="aa" id="contraseña" type="password" placeholder="&#128273; Contraseña" name="pass">
         <button type="button" class="BIngresar" id="validateButton" value="Enviar" onclick="return validacion(); usuario();"  >Ingresar</button>
+
     </form>
 
     <br><br><br><br><br><br><br><br><br><br><br>
