@@ -69,7 +69,7 @@
     </form>
     <br><br>
     <input type="button" id="capturar" value="capturar" onclick="Final()">
-    <form action="mostra_lista_gustos.php" method="get">
+    <form action="mostra_listas_gustos.php" method="get">
         <input type="submit" id="enviar" value="enviar" onclick="Final()">
         <input type="text" name="user2" id="user2" placeholder="Ingresa tu usuario">
         <p id="demo2" name="demo2"></p>
