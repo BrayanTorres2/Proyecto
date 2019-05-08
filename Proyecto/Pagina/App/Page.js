@@ -4,17 +4,13 @@
 
 var ListaGustos = [];
 var ListaSUGustos = [];
-var ListaUsuario=[];
 var ListaNombres = ['Waffles Glaseados', 'Ensalada De frutas', 'Yogurt Artesanal', 'Empanada']
 var num = 1;
 var xd = 1;
 
 
-function spuds(){
-    console.log(ListaUsuario[0].toString);
-}
+
 function Final(){
-document.getElementById("demo1").innerHTML = ListaGustos[0].toString;
 document.getElementById("demo2").innerHTML = ListaGustos.size().toString;
 document.getElementById("demo3").innerHTML = ListaSUGustos.size().toString; }
 
@@ -159,7 +155,6 @@ function validar_contacto() {
      } else if (contraseñaUsuario.length > 0 && contraseñaUsuario.length < 4) {
          alert('El campo de contraseña debe contener minimo 4 caracteres!')
      }else{
-         ListaUsuario.unshift(nombreUsuario)
          document.formulogin.submit();
      }
      return true;
