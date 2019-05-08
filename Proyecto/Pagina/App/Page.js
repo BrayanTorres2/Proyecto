@@ -10,6 +10,7 @@ var num = 1;
 var xd = 1;
 
 
+
 /**
  * [Funcion rechazar cambia postre]
  */
