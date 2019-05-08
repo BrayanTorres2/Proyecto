@@ -12,9 +12,6 @@ var xd = 1;
 function Usuario(){
     var nombreUsuario = document.getElementById("name").value;
     ListaUsuario.unshift(nombreUsuario);
-    console.log(ListaUsuario.length);
-    return ListaUsuario;
-
 }
 
 function Final(){
