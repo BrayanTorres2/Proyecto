@@ -47,9 +47,7 @@
     </header>
     <br>
 
-          <input type="button" id="Capturar" class="" value="Capturar" onclick="spuds()">
-          <input type="submit" id="enviar" value="enviar">
-          <p id="demo1">hi</p>
+          <input type="button" id="enviar" value="enviar" onclick="Final()">
           <p id="demo2">hi2</p>
           <p id="demo3">hi3</p>
 
@@ -67,7 +65,7 @@
             <div class="boxes">
 
 
-                <input type="button" id="R" class="botones" value="" onclick="spuds()">
+                <input type="button" id="R" class="botones" value="" onclick="rechazar()">
                 <input type="button" id="G" class="botones" value="" onclick="SGustos()">
                 <input type="button" id="SG" class="botones" value="" onclick="gustos()">
         </div>
