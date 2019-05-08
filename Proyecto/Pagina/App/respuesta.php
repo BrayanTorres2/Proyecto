@@ -47,15 +47,11 @@
     </header>
     <br>
 
-   <form  method="get">
           <input type="button" id="php" class="" value="Capturar" onclick="Final()">
           <input type="submit" id="enviar" value="enviar">
           <p id="demo1"></p>
           <p id="demo2"></p>
           <p id="demo3"></p>
-
-
-      </form>
 
     <form name="f1" id="formulair">
         <b>

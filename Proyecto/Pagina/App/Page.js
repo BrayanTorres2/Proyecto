@@ -9,7 +9,19 @@ var ListaNombres = ['Waffles Glaseados', 'Ensalada De frutas', 'Yogurt Artesanal
 var num = 1;
 var xd = 1;
 
+function Usuario(){
+    var nombreUsuario = document.getElementById("name").value;
+    ListaUsuario.unshift(nombreUsuario);
+    return ListaUsuario;
 
+}
+
+function Final(){
+document.getElementById("demo1").innerHTML = ListaGustos[0].toString;
+document.getElementById("demo2").innerHTML = ListaGustos.size().toString;
+document.getElementById("demo3").innerHTML = ListaSUGustos.size().toString;
+
+}
 
 /**
  * [Funcion rechazar cambia postre]
@@ -157,18 +169,6 @@ function validar_contacto() {
  }
 
 
- function Usuario(){
-    var nombreUsuario = document.getElementById("name").value;
-    ListaUsuario.unshift(nombreUsuario);
-    return ListaUsuario;
 
-}
-
-function Final(){
-document.getElementById("demo1").innerHTML = ListaGustos[0].toString;
-document.getElementById("demo2").innerHTML = ListaGustos.size().toString;
-document.getElementById("demo3").innerHTML = ListaSUGustos.size().toString;
-
-}
 
 
