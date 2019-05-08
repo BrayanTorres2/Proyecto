@@ -61,7 +61,7 @@
             </b>
             <div class="boxes">
 
-            <form action="mostrar_listas_gustos.php" method="get">
+            <form action="" method="get">
                 <input type="submit" id="R" class="botones" value="" onclick="rechazar()">
                 <input type="submit" id="G" class="botones" value="" onclick="SGustos()">
                 <input type="submit" id="SG" class="botones" value="" onclick="gustos()">
