@@ -18,7 +18,6 @@ function Final(){
 document.getElementById("demo1").innerHTML = ListaGustos[0].toString;
 document.getElementById("demo2").innerHTML = ListaGustos.size().toString;
 document.getElementById("demo3").innerHTML = ListaSUGustos.size().toString;
-
 }
 
 /**
