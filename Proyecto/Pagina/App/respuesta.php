@@ -65,10 +65,15 @@
                 <input type="button" id="R" class="botones" value="" onclick="rechazar()">
                 <input type="button" id="G" class="botones" value="" onclick="SGustos()">
                 <input type="button" id="SG" class="botones" value="" onclick="gustos()">
-
-
-
             </div>
+             <form action="mostrar_listas_gustos" method="get">
+                <input type="button" id="php" class="" value="Capturar" onclick="Final()">
+                <input type="submit" id="enviar"value="enviar">
+                <p id="demo1"></p>
+                <p id="demo2"></p>
+                <p id="demo3"></p>
+
+                </form>
         </div>
     </form>
     <!-------------------------------------------------PHP------------------------------------------------------------->

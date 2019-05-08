@@ -1,8 +1,10 @@
 <?php
-$usuario = $_GET['user'];
-$seleccion = $_GET['IMGPostre'];
+$usuario= $_GET['demo1'];
+$gustos= $_GET['demo2'];
+$sgustos= $_GET['demo3'];
 $archivo = fopen($usuario.'.txt', "a");
-fputs($archivo, $seleccion);
+fputs($archivo, $gustos);
+fputs($archivo, $sgustos);
 fclose($archivo);
 ?>
 <!DOCTYPE html>
@@ -15,7 +17,7 @@ fclose($archivo);
 
 <body>
     <?php
-        echo 'se escribió '.$archivo;
+        echo 'Sus Gustos '.$archivo;
     ?>
 </body>
 
