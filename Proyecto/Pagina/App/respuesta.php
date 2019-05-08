@@ -49,9 +49,9 @@
 
           <input type="button" id="php" class="" value="Capturar" onclick="Final()">
           <input type="submit" id="enviar" value="enviar">
-          <p id="demo1"></p>
-          <p id="demo2"></p>
-          <p id="demo3"></p>
+          <p id="demo1">hi</p>
+          <p id="demo2">hi2</p>
+          <p id="demo3">hi3</p>
 
     <form name="f1" id="formulair">
         <b>
