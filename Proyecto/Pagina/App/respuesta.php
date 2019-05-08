@@ -63,9 +63,11 @@
 
             <form action="mostrar_listas_gustos.php" method="get">
                 <input type="submit" id="R" class="botones" value="" onclick="rechazar()">
-                <option type="submit" id="G" class="botones" value="" onclick="SGustos()">
-                <option type="submit" id="SG" class="botones" value="" onclick="gustos()">
+                <input type="submit" id="G" class="botones" value="" onclick="SGustos()">
+                <input type="submit" id="SG" class="botones" value="" onclick="gustos()">
             </form>
+
+
             </div>
         </div>
     </form>
