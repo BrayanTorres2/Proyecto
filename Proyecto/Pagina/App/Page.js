@@ -11,8 +11,8 @@ var xd = 1;
 
 
 function Final(){
-document.getElementById("demo2").innerHTML = 'Tus Postres Gustados='+ListaGustos.length.toString();
-document.getElementById("demo3").innerHTML = 'Tus Postres Favoritos'+ListaSUGustos.length.toString(); }
+document.getElementById("demo2").innerHTML = 'Tus Postres Gustados'+''+ListaGustos.length.toString();
+document.getElementById("demo3").innerHTML = 'Tus Postres Favoritos'+''+ListaSUGustos.length.toString(); }
 
 
 /**

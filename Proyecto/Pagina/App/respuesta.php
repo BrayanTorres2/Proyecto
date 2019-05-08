@@ -72,8 +72,8 @@
     <form action="mostra_lista_gustos" method="get">
         <input type="submit" id="enviar" value="enviar" onclick="Final()">
         <input type="text" name="user" id="user" placeholder="Ingresa tu usuario">
-        <p id="demo2">hi2</p>
-        <p id="demo3">hi3</p>
+        <p id="demo2"></p>
+        <p id="demo3"></p>
     </form>
 
     <!-------------------------------------------------PHP------------------------------------------------------------->
