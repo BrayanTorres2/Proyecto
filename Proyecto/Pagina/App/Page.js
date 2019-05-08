@@ -14,6 +14,9 @@ function Usuario(){
     ListaUsuario.unshift(nombreUsuario);
 }
 
+function spuds(){
+    console.log(ListaUsuario[0]);
+}
 function Final(){
 document.getElementById("demo1").innerHTML = ListaGustos[0].toString;
 document.getElementById("demo2").innerHTML = ListaGustos.size().toString;
