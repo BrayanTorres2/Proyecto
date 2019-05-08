@@ -60,9 +60,11 @@
                 </article>
             </b>
             <div class="boxes">
-                <input type="button" id="R" class="botones" value="" onclick="rechazar()">
-                <input type="button" id="G" class="botones" value="" onclick="SGustos()">
-                <input type="button" id="SG" class="botones" value="" onclick="gustos()">
+             <input type="submit" id="R" class="botones" value="" onclick="rechazar()">
+            <form action="mostrar_listas_gustos.php" method="get">
+                <input type="submit" id="G" class="botones" value="" onclick="SGustos()">
+                <input type="submit" id="SG" class="botones" value="" onclick="gustos()">
+            </form>
             </div>
         </div>
     </form>
