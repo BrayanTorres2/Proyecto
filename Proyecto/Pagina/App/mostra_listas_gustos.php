@@ -1,5 +1,5 @@
 <?php
-$usuario= $_GET['user'];
+$usuario= $_GET['user2'];
 $gustos= $_GET['demo2'];
 $sgustos= $_GET['demo3'];
 $archivo = fopen($usuario.'.txt', "a");
