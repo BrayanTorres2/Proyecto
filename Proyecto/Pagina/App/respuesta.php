@@ -47,7 +47,7 @@
     </header>
     <br>
 
-          <input type="button" id="Capturar" class="" value="Capturar" onclick="Final()">
+          <input type="button" id="Capturar" class="" value="Capturar" onclick="spuds()">
           <input type="submit" id="enviar" value="enviar">
           <p id="demo1">hi</p>
           <p id="demo2">hi2</p>
