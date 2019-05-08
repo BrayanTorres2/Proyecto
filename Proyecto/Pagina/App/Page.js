@@ -11,8 +11,8 @@ var xd = 1;
 
 
 function Final(){
-document.getElementById("demo2").innerHTML = ListaGustos().size.toString;
-document.getElementById("demo3").innerHTML = ListaSUGustos().size.toString; }
+document.getElementById("demo2").innerHTML = ListaGustos.length.toString;
+document.getElementById("demo3").innerHTML = ListaSUGustos.length.toString; }
 
 
 /**
