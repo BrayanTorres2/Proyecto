@@ -84,22 +84,17 @@
             echo '<!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>*Chask*</title>
     <meta charset="UTF-8">
-    <title>Selecciones de usuario</title>
+
 </head>
-<body>
-    <form action="seleccionado.php" method="get">
-        <input type="text" name="user" id="user" placeholder="Usuario">
-        <select name="seleccion" id="seleccion">
-            <option value="opcion1">opcion1</option>
-            <option value="opcion2">opcion2</option>
-            <option value="opcion3">opcion3</option>
-            <option value="opcion4">opcion4</option>
-            <option value="opcion5">opcion5</option>
-        </select>
-        <input type="submit" value="Enviar">
-    </form>
-</body>
+
+    <body id="Login">
+    Thanos evaporo tu contraseña... no existe
+    <img src="https://cdn.20m.es/img2/recortes/2019/04/29/940221-600-338.jpg"/>
+    </body>
+
+
 </html>';
         }
     }else{
