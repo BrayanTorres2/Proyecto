@@ -3,7 +3,7 @@ $usuario= $_GET['user2'];
 $gustos= $_GET['demo2'];
 $sgustos= $_GET['demo3'];
 $datos = $gustos."-".$sgustos;
-$archivo = fopen($usuario.'.txt', "a");
+$archivo = fopen($usuario.'.txt', "a+");
 fputs($archivo, $datos."\r\n");
 fclose($archivo);
 ?>
