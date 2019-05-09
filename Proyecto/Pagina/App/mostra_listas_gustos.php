@@ -1,7 +1,7 @@
 <?php
 $usuario= $_GET['user2'];
-$gustos= $_GET['demo2'];
-$sgustos= $_GET['demo3'];
+$gustos= $_GET['demo22'];
+$sgustos= $_GET['demo33'];
 $archivo = fopen($usuario.'.txt', "a");
 fputs($archivo, $gustos);
 fputs($archivo, $sgustos);

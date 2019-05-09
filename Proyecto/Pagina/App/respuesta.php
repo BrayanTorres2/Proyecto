@@ -73,6 +73,8 @@
     <div>
         <br>
         <input type="text" name="user2" id="user2" placeholder="Ingresa tu usuario">
+        <input type="text" name="demo22" id="demo22" placeholder="Ingresa tus gustados">
+        <input type="text" name="demo33" id="demo33" placeholder="Ingresa tus super">
         <br>
         <input type="button" id="Guardar" value="Guardar" class="boxes" onclick="Final()">
         <input type="submit" id="Enviar" value="enviar" class="boxes" onclick="Final()">
