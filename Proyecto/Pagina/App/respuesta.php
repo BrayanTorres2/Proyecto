@@ -72,13 +72,13 @@
     <form action="mostra_listas_gustos.php" method="get">
     <div>
         <br>
-        <input type="text" name="user2" id="user2" placeholder="Ingresa tu usuario">
+        <input type="text" name="user2" id="user2" placeholder="Ingresa tu usuario"required>
         <br>
         <br>
-        <input type="text" name="demo22" id="demo22" placeholder="valor de gustos">
+        <input type="text" name="demo22" id="demo22" placeholder="valor de gustos"required>
         <br>
         <br>
-        <input type="text" name="demo33" id="demo33" placeholder="valor de super gustos">
+        <input type="text" name="demo33" id="demo33" placeholder="valor de super gustos" required>
         <br>
         <input type="button" id="Guardar" value="Guardar" class="boxes" onclick="Final(), Final2()">
         <input type="submit" id="Enviar" value="enviar" class="boxes" onclick="Final(), Final2()">
