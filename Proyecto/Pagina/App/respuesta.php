@@ -74,6 +74,13 @@
         <br>
         <input type="text" name="user2" id="user2" placeholder="Ingresa tu usuario">
         <br>
+        <br>
+        <input type="text" name="demo2" id="demo2" placeholder="demo2">
+        <br>
+        <br>
+        <input type="text" name="demo3" id="demo3" placeholder="demo3">
+        <input type="text" name="demo3" id="demo3" placeholder="demo3">
+        <br>
         <input type="button" id="Guardar" value="Guardar" class="boxes" onclick="Final(), Final2()">
         <input type="submit" id="Enviar" value="enviar" class="boxes" onclick="Final(), Final2()">
         <p id="demo2" name="demo2" value="tamaLis"></p>
