@@ -128,13 +128,22 @@ body {
     }
     #Guardar,#Enviar{
     background-repeat: no-repeat;
-    height: 100px;
-    width: 200px;
+    height: 70px;
+    width: 100px;
     background-position: center;
     background-color: transparent;
     border-radius: 10px;
     outline: none;
     display: block;
 
+    }
+    #user2{
+    height: 70px;
+    width: 100px;
+    }
+    #demo2,demo3{
+          font-size: 62.5%;
+          font: normal 16px/1.5 "Helvetica Neue", sans-serif;
+          color: #E1EF02;
     }
 
