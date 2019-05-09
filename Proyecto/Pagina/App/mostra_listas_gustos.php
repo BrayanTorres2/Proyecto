@@ -2,11 +2,9 @@
 $usuario= $_GET['user2'];
 $gustos= $_GET['demo2'];
 $sgustos= $_GET['demo3'];
+$datos = $gustos."-".$sgustos;
 $archivo = fopen($usuario.'.txt', "a");
-if ($gustos>0)
-    echo 'Tienes gustos'
-    fputs($archivo, $gustos);
-    fputs($archivo, $sgustos);
+fputs($archivo, $datos."\r\n");
 fclose($archivo);
 ?>
 <!DOCTYPE html>
