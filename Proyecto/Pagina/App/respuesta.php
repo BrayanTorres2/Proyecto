@@ -75,16 +75,15 @@
         <input type="text" name="user2" id="user2" placeholder="Ingresa tu usuario">
         <br>
         <br>
-        <input type="text" name="demo2" id="demo2" placeholder="demo2">
+        <input type="text" name="demo22" id="demo22" placeholder="valor de gustos">
         <br>
         <br>
-        <input type="text" name="demo3" id="demo3" placeholder="demo3">
-        <input type="text" name="demo3" id="demo3" placeholder="demo3">
+        <input type="text" name="demo33" id="demo33" placeholder="valor de super gustos">
         <br>
         <input type="button" id="Guardar" value="Guardar" class="boxes" onclick="Final(), Final2()">
         <input type="submit" id="Enviar" value="enviar" class="boxes" onclick="Final(), Final2()">
-        <p id="demo2" name="demo2" value="tamaLis"></p>
-        <p id="demo3" name="demo3" value="tamaLis2"></p>
+        <p id="demo2" name="demo2" ></p>
+        <p id="demo3" name="demo3" ></p>
     </div>
     </form>
 
