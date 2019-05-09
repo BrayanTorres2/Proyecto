@@ -126,3 +126,15 @@ body {
         font: normal 20px/1.5 "Helvetica Neue", sans-serif;
         font-weight: bold;
     }
+    #Guardar,#Enviar{
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 200px;
+    background-position: center;
+    background-color: transparent;
+    border-radius: 10px;
+    outline: none;
+    display: block;
+
+    }
+

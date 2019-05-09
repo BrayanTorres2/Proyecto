@@ -68,9 +68,9 @@
         </div>
     </form>
     <br><br>
-    <input type="button" id="capturar" value="capturar" onclick="Final()">
+    <input type="button" id="Guardar" value="Guardar" class="boxes" onclick="Final()">
     <form action="mostra_listas_gustos.php" method="get">
-        <input type="submit" id="enviar" value="enviar" onclick="Final()">
+        <input type="submit" id="Enviar" value="enviar" class="boxes" onclick="Final()">
         <input type="text" name="user2" id="user2" placeholder="Ingresa tu usuario">
         <p id="demo2" name="demo2"></p>
         <p id="demo3" name="demo3"></p>
