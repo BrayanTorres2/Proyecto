@@ -74,10 +74,10 @@
         <br>
         <input type="text" name="user2" id="user2" placeholder="Ingresa tu usuario">
         <br>
-        <input type="button" id="Guardar" value="Guardar" class="boxes" onclick="Final()">
-        <input type="submit" id="Enviar" value="enviar" class="boxes" onclick="Final()">
-        <p id="demo2" name="demo2"></p>
-        <p id="demo3" name="demo3"></p>
+        <input type="button" id="Guardar" value="Guardar" class="boxes" onclick="Final(), Final2()">
+        <input type="submit" id="Enviar" value="enviar" class="boxes" onclick="Final(), Final2()">
+        <p id="demo2" name="demo2" value="Final()"></p>
+        <p id="demo3" name="demo3" value="Final2()"></p>
     </div>
     </form>
 
