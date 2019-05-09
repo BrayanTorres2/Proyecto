@@ -76,8 +76,8 @@
         <br>
         <input type="button" id="Guardar" value="Guardar" class="boxes" onclick="Final(), Final2()">
         <input type="submit" id="Enviar" value="enviar" class="boxes" onclick="Final(), Final2()">
-        <p id="demo2" name="demo2" value="Final()"></p>
-        <p id="demo3" name="demo3" value="Final2()"></p>
+        <p id="demo2" name="demo2" value="tamaLis"></p>
+        <p id="demo3" name="demo3" value="tamaLis2"></p>
     </div>
     </form>
 

@@ -12,9 +12,11 @@ var xd = 1;
 
 function Final(){
 document.getElementById("demo2").innerHTML = 'TUS POSTRES FAVORITOS'+' '+ListaGustos.length.toString();
+    var tamaLis=ListaGustos.length.toString();
 }
 function Final2(){
 document.getElementById("demo3").innerHTML = 'TUS POSTRES GUSTADOS'+' '+ListaSUGustos.length.toString();
+    var tamaLis2=ListaSUGustos.length.toString();
 }
 
 
