@@ -22,7 +22,4 @@ echo '
 <h5>Gracias Por registrase en nuestra wed, ya puede ingresar como usuario</h5>
 <a href="Login.php">Ingresar</a>
 ';
-
-
-
   ?>
