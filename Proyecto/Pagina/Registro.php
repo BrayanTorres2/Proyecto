@@ -24,18 +24,5 @@
     <script src="Page.js" type="text/javascript"></script>
 
  <!-------------------------------------------------PHP------------------------------------------------------------->
-   <?php
-        if (isset($_COOKIE['test'])){
-            echo '<p>Bienvenido/p>';
-            setcookie('test', '', time() + 3600);
-        }else {
-            echo '<p>A DESSERTS</p>';
-            setcookie('test', 'Profe van 9 horas sin parar de esto' );
-        }
-    ?>
-
-
-
-
 
 </body></html>
