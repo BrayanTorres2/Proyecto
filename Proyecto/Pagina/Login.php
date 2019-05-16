@@ -35,9 +35,7 @@
        <input class="aa" id="contraseña" type="password" placeholder="&#128273; Contraseña" name="pass">
         <button type="button" class="BIngresar" id="validateButton" value="Enviar" onclick="return validacion(); usuario();"  >Ingresar</button>
     </form>
-    <form action="Registro.php" method="post" >
-     <button type="button" class="BRecuperar" id="validateButton" value="Registar">Registrar</button>
-    </form>
+     <button type="button" class="BRecuperar" id="validateButton" value="Registar"><a href="Registro.">Registrar</a></button>
 
     <br><br><br><br><br><br><br><br><br><br><br>
     </body>
