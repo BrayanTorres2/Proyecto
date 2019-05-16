@@ -8,7 +8,7 @@ $contraseña=$_post('Contraseña');
 $correo=$_post('Correoelectronico');
 $Confirmarcontraseña=$_post('Confirmarcontraseña');
 //obtiene la longitud de un string
-$req =(strlen($nombre)*strlen($contraseña)*strlen($correo)*strlen($Confirmarcontraseña) or die("No se han llenado todos los campos <br><br> <a href='../Registro.php>V</a>'");
+$req =(strlen($nombre)*strlen($contraseña)*strlen($correo)*strlen($Confirmarcontraseña)) or die("No se han llenado todos los campos <br><br> <a href='../Registro.php>V</a>'");
 //se confirma la contraseña
 if($contraseña != $Confirmarcontraseña){
     die ('Las contraseñas;as no coinciden <br><br><a href="../Registro.php">Volver</a>')
