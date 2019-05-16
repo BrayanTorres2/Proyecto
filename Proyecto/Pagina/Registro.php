@@ -16,7 +16,7 @@
         <input class="i" id="CC" type="text" name="Confirmarcontraseña" placeholder="Confirmar contraseña" required>
         <input class="i" id="CE" type="email" name="Correoelectronico" placeholder="Correo electronico" required>
         <label id="oo"><input id="checkbox" type="checkbox" vale="Terminos y condiciones" required> Terminos y condiciones</label>
-        <input id="boton" type="Submit" Value="Registrar">
+        <button id="boton" type="button" Value="Registrar">Registrar</button>
     </form>
 
 
