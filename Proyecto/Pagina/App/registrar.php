@@ -11,7 +11,7 @@ $Confirmarcontraseña=$_post('Confirmarcontraseña');
 $req =(strlen($nombre)*strlen($contraseña)*strlen($correo)*strlen($Confirmarcontraseña) or die("No se han llenado todos los campos <br><br> <a href='Registro.php>V</a>'")
 //se confirma la contraseña
 if($contraseña != $Confirmarcontraseña){
-    die ('Las contraseñas;as no coinciden <br><br><a href="Registro.php">Volver</a>')
+    die ('Las contraseñas;as no coinciden <br><br><a href="../Registro.php">Volver</a>')
 }
 //se encripta la contraseña
 $contraseñaUsuario=md5($contraseña);
@@ -20,6 +20,6 @@ mysql_query("insert into Usuarios values('','$nombre','$contraseña','$correo','
 echo '
 <h2>Registro Completo</h2>
 <h5>Gracias Por registrase en nuestra wed, ya puede ingresar como usuario</h5>
-<a href="Login.php">Ingresar</a>
+<a href="../Login.php">Ingresar</a>
 ';
   ?>
