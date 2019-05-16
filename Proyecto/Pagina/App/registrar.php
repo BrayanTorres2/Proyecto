@@ -1,7 +1,7 @@
 <?php
 //conexion con la base de datos y el servidor
-$link=mysql_connect("localhost","server","server") or die ("<h2>No se pudo encontro el servidor carnal</h2>")
-$db=mysql_select_db("Usuarios",$link) or die("<h2>Error de la conexion</h2>")
+$link=mysql_connect("localhost","server","server") or die ("<h2>No se pudo encontro el servidor carnal</h2>");
+$db=mysql_select_db("Usuarios",$link) or die("<h2>Error de la conexion</h2>");
 //obtenemos los valores del formulario
 $nombre=$_post('Nombreusuario');
 $contraseña=$_post('Contraseña');
