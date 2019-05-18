@@ -11,7 +11,7 @@ $Confirmarcontraseña=$_post('Confirmarcontraseña');
 $req =(strlen($nombre)*strlen($contraseña)*strlen($correo)*strlen($Confirmarcontraseña)) or die("No se han llenado todos los campos <br><br> <a href='../Registro.php>V</a>'");
 //se confirma la contraseña
 if($contraseña != $Confirmarcontraseña){
-    die ('Las contraseñas;as no coinciden <br><br><a href="../Registro.php">Volver</a>')
+    die ('Las contraseñas;as no coinciden <br><br><a href="../Registro.php">Volver</a>');
 }
 //se encripta la contraseña
 $contraseñaUsuario=md5($contraseña);
