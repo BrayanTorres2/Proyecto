@@ -1,27 +1,67 @@
-<?php
-//Creas una variable de tipo objeto mysqli con los datos de la bd y el charset que quieras
-$mysqli = new mysqli('127.0.0.1', 'server', 'server', 'Usuarios') or die ("<h2>No se pudo encontro el servidor carnal</h2>");;
-$mysqli->set_charset("utf8");
-//conexion con la base de datos y el servidor
-//$db=mysql_select_db("Usuarios",$link) or die("<h2>Error de la conexion</h2>");
-//obtenemos los valores del formulario
-$nombre=$_post('Nombreusuario');
-$contraseña=$_post('Contraseña');
-$correo=$_post('Correoelectronico');
-$Confirmarcontraseña=$_post('Confirmarcontraseña');
-//obtiene la longitud de un string
-$req =(strlen($nombre)*strlen($contraseña)*strlen($correo)*strlen($Confirmarcontraseña)) or die("No se han llenado todos los campos <br><br> <a href='../Registro.php>V</a>'");
-//se confirma la contraseña
-if($contraseña != $Confirmarcontraseña){
-    die ('Las contraseñas;as no coinciden <br><br><a href="../Registro.php">Volver</a>');
-}
-//se encripta la contraseña
-$contraseñaUsuario=md5($contraseña);
-//ingresar la informacion a la tabla usuarios
-mysql_query("insert into Usuarios values('','$nombre','$contraseña','$correo','$Confirmarcontraseña')",$link) or die ("<h2>Error de envio</h2>");
-echo '
-<h2>Registro Completo</h2>
-<h5>Gracias Por registrase en nuestra wed, ya puede ingresar como usuario</h5>
-<a href="../Login.php">Ingresar</a>
-';
-  ?>
+-- phpMyAdmin SQL Dump
+-- version 4.6.6deb5
+-- https://www.phpmyadmin.net/
+--
+-- Servidor: localhost:3306
+-- Tiempo de generación: 16-05-2019 a las 13:53:39
+-- Versión del servidor: 5.7.26-0ubuntu0.18.04.1
+-- Versión de PHP: 7.2.17-0ubuntu0.18.04.1
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
+
+--
+-- Base de datos: `lista_tareas`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `usuario`
+--
+
+CREATE TABLE `Usuarios` (
+  `ID` int(11) NOT NULL,
+  `Nombreusuario` varchar(100) NOT NULL,
+  `Contraseña` varchar(10) NOT NULL,
+  `Confirmarcontraseña` varchar(10) NOT NULL,
+  `Correoelectronico` varchar(100) NOT NULL,
+  -- `TerminosyCondiciones` int(2) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Volcado de datos para la tabla `usuario`
+--
+
+INSERT INTO `Usuarios` (`ID`, `Nombreusuario`, `Contraseña`, `Confirmarcontraseña`, `Correoelectronico`, `activo`) VALUES
+(1, 'Brayan', 'jose', 'jose', 'jose', NULL),
+(3, 'jose', 'jose', 'jose@jose.com', 'jose', 1);
+
+--
+-- Índices para tablas volcadas
+--
+
+--
+-- Indices de la tabla `usuario`
+--
+ALTER TABLE `usuario`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- AUTO_INCREMENT de las tablas volcadas
+--
+
+--
+-- AUTO_INCREMENT de la tabla `usuario`
+--
+ALTER TABLE `usuario`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

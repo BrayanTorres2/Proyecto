@@ -9,16 +9,18 @@
 
 <body id="RB">
     <br><br><br><br><br><br><br><br><br><br>
+
     <form id="R" action="App/registrar.php" method="post" class="from-registrar" onsubmit="return validar();">
         <h3 id="qq">Registro</h3>
         <div id=gg><input class="i" id="NU" type="text" name="Nombreusuario" placeholder="Nombre usuario" required></div>
         <input class="i" id="NC" type="text" name="Contraseña" placeholder="Contraseña" required>
         <input class="i" id="CC" type="text" name="Confirmarcontraseña" placeholder="Confirmar contraseña" required>
         <input class="i" id="CE" type="email" name="Correoelectronico" placeholder="Correo electronico" required>
-        <label id="oo"><input id="checkbox" type="checkbox" vale="Terminos y condiciones" required> Terminos y condiciones</label>
+        <label id="oo"><input id="checkbox" type="checkbox" name="TerminosyCondiciones"  vale="Terminos y condiciones" required> Terminos y condiciones</label>
         <input type="submit" id="boton" Value="Registrar">
 
     </form>
+
 
 
 
