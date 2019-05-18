@@ -16,7 +16,7 @@ if($contraseña != $Confirmarcontraseña){
 //se encripta la contraseña
 $contraseñaUsuario=md5($contraseña);
 //ingresar la informacion a la tabla usuarios
-mysql_query("insert into Usuarios values('','$nombre','$contraseña','$correo','$Confirmarcontraseña')",$link) or die ("<h2>Error de envio</h2>")
+mysql_query("insert into Usuarios values('','$nombre','$contraseña','$correo','$Confirmarcontraseña')",$link) or die ("<h2>Error de envio</h2>");
 echo '
 <h2>Registro Completo</h2>
 <h5>Gracias Por registrase en nuestra wed, ya puede ingresar como usuario</h5>
