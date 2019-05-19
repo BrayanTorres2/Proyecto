@@ -7,6 +7,6 @@ $conexion = new mysqli($host, $user, $password, $db);
 if ($conexion -> connect_errno){
     echo 'no hay conexion con la bd';
 }else{
-    echo 'Nos conectamos';
+    echo 'Nos conectamos Crack';
 }
 ?>
