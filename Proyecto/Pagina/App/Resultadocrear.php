@@ -1,6 +1,7 @@
 <?php
-include('DBConection.php');
+include('DBconection.php');
 ?>
+
 
 <div class="container">
 
