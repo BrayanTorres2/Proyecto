@@ -30,7 +30,7 @@ CREATE TABLE `Usuarios` (
   `ID` int(11) NOT NULL,
   `Nombreusuario` varchar(100) NOT NULL,
   `Contrasena` varchar(10) NOT NULL,
-  `Confirmarcontraseña` varchar(10) NOT NULL,
+  `Confirmarcontrasena` varchar(10) NOT NULL,
   `Correoelectronico` varchar(100) NOT NULL,
   -- `TerminosyCondiciones` int(2) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
