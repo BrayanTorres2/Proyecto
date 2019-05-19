@@ -1,5 +1,5 @@
 <?php
-include('DbConection.php');
+include('DBConection.php');
 ?>
 
 <div class="container">
