@@ -12,7 +12,7 @@ include('DBconection.php');
         $sentenciaSQL = $sentenciaSQL."".$_POST['Nombreusuario']."', '";
         $sentenciaSQL = $sentenciaSQL."".$_POST['Contraseña']."', '";
         $sentenciaSQL = $sentenciaSQL."".$_POST['Confirmarcontraseña']."', '";
-        $sentenciaSQL = $sentenciaSQL."".$_POST['Correoelectronico'].')';
+        $sentenciaSQL = $sentenciaSQL."".$_POST['Correoelectronico']."');
         if ($conexion->query($sentenciaSQL) === TRUE) {
             echo "Usuario creado";
         } else {
