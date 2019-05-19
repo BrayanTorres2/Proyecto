@@ -22,7 +22,7 @@
     </form>
 
 
-<?php include('../templates/footer.php'); ?>
+
 
     <script src="Page.js" type="text/javascript"></script>
 
