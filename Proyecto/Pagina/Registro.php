@@ -10,7 +10,7 @@
 <body id="RB">
     <br><br><br><br><br><br><br><br><br><br>
 
-    <form id="R" action="App/registrar.php" method="post" class="from-registrar" onsubmit="return validar();">
+    <form id="R" action="App/Resultadocrear.php" method="post" class="from-registrar" onsubmit="return validar();">
         <h3 id="qq">Registro</h3>
         <div id=gg><input class="i" id="NU" type="text" name="Nombreusuario" placeholder="Nombre usuario" required></div>
         <input class="i" id="NC" type="text" name="Contraseña" placeholder="Contraseña" required>
@@ -22,7 +22,7 @@
     </form>
 
 
-
+<?php include('../templates/footer.php'); ?>
 
     <script src="Page.js" type="text/javascript"></script>
 

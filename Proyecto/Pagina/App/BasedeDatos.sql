@@ -39,9 +39,9 @@ CREATE TABLE `Usuarios` (
 -- Volcado de datos para la tabla `usuario`
 --
 
-INSERT INTO `Usuarios` (`ID`, `Nombreusuario`, `Contraseña`, `Confirmarcontraseña`, `Correoelectronico`, `activo`) VALUES
-(1, 'Brayan', 'jose', 'jose', 'jose', NULL),
-(3, 'jose', 'jose', 'jose@jose.com', 'jose', 1);
+INSERT INTO `Usuarios` (`ID`, `Nombreusuario`, `Contraseña`, `Confirmarcontraseña`, `Correoelectronico`) VALUES
+(1, 'Brayan', 'Torres', 'torres', 'brayan@gmail.com'),
+(3, 'Sebastian', 'Sanchez', 'Sanchez', 'sebastian@gmail.com');
 
 --
 -- Índices para tablas volcadas
@@ -50,8 +50,8 @@ INSERT INTO `Usuarios` (`ID`, `Nombreusuario`, `Contraseña`, `Confirmarcontrase
 --
 -- Indices de la tabla `usuario`
 --
-ALTER TABLE `usuario`
-  ADD PRIMARY KEY (`id`);
+ALTER TABLE `Usuarios`
+  ADD PRIMARY KEY (`ID`);
 
 --
 -- AUTO_INCREMENT de las tablas volcadas
@@ -60,8 +60,8 @@ ALTER TABLE `usuario`
 --
 -- AUTO_INCREMENT de la tabla `usuario`
 --
-ALTER TABLE `usuario`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+ALTER TABLE `Usuarios`
+  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
