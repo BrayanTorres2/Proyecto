@@ -1,8 +1,6 @@
 <?php
 include('DBconection.php');
-?>
 
-    <?php
     if (isset($_POST['Nombreusuario']) && isset($_POST['Contrasena']) && isset($_POST['Confirmarcontrasena']) && isset($_POST['Correoelectronico'])){
         $sentenciaSQL = "INSERT INTO `Usuarios` ( `Nombreusuario`,`Contrasena`,`Confirmarcontrasena`,`Correoelectronico`)";
         $sentenciaSQL = $sentenciaSQL."VALUES ( '";
