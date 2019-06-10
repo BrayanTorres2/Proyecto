@@ -1,8 +1,8 @@
 <?php
 include ("Conexion.php");
 
-$nombre =  ($_POST["name"]);
-$password = ($_POST["contraseña"]);
+$nombre =  ($_POST["usser"]);
+$password = ($_POST["pass"]);
 
 $consulta = mysqli_query ($conexion,"SELECT 'Nombreusuario','Contrasena' FROM Usuarios WHERE Nombreusuario = '$nombre' AND Contrasena = '$password'");
 
