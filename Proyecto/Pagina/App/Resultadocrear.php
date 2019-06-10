@@ -7,14 +7,14 @@ $db = 'carpetitaProyecto';
 $conexion = mysqli_connect('localhost', 'server', 'server', 'carpetitaProyecto') or die ("No se ha podido conectar al servidor de Base de datos")
 
 /* insertar datos en la base de datos */
-    $user=$_POST['Nombreusuario'];
+    $userDB=$_POST['Nombreusuario'];
     $contra=$_POST['Contrasena'];
     $post="";
 
-     if ($user=="" || $contra=="" || $email=""){
+     if ($userDB=="" || $contra=="" || $email=""){
         echo 'alert("Datos incorrectos o incompletos")';
     }
-        $sql= "INSERT INTO Usuarios (Nombreusuario,Contrasena,Correoelectronico) VALUES ('".$user."','".$contra."','".$_POST['Correoelectronico']."')";
+        $sql= "INSERT INTO Usuarios (Nombreusuario,Contrasena,Correoelectronico) VALUES ('".$userDB."','".$contra."','".$_POST['Correoelectronico']."')";
 
 
          if (mysqli_query($conexion, $sql) === TRUE) {
