@@ -2,11 +2,7 @@
 $host = 'localhost';
 $user = 'server';
 $password = 'server';
-$db = 'carpeticaProyecto';
-$conexion = new mysqli($host, $user, $password, $db);
-if ($conexion -> connect_errno){
-    echo 'no hay conexion con la bd';
-}else{
-    echo 'Nos conectamos Crack';
-}
+$db = 'carpetitaProyecto';
+$conexion = new mysqli('localhost', 'server', 'server', 'carpetitaProyecto');
+
 ?>
