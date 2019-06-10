@@ -4,7 +4,7 @@ $host = 'localhost';
 $user = 'server';
 $password = 'server';
 $db = 'carpetitaProyecto';
-$conexion = mysqli_connect('localhost', 'server', 'server', 'carpetitaProyecto') or die ("No se ha podido conectar al servidor de Base de datos")
+$conexion = mysqli_connect('localhost', 'server', 'server', 'carpetitaProyecto') or die ("No se ha podido conectar al servidor de Base de datos");
 
 /* insertar datos en la base de datos */
 
