@@ -1,5 +1,5 @@
 <?php
-include ('Conexion.php')
+include ('Conexion.php');
 /* insertar datos en la base de datos */
     $userDB=$_POST['Nombreusuario'];
     $contra=$_POST['Contrasena'];
