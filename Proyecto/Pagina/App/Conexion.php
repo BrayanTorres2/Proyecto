@@ -8,6 +8,4 @@ $conexion = mysqli_connect('localhost', 'server', 'server', 'carpetitaProyecto')
 if (!$conexion) {
       die("Connection failed: " . mysqli_connect_error());
 }
-
-echo "Connected successfully";
 ?>
