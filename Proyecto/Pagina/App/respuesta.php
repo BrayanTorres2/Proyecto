@@ -1,10 +1,10 @@
 <?php
 session_start();
 
-$nombre = $_POST['userDB'];
-$password = $_POST['contrasena'];
+$nombre = $_POST['Nombreusuario'];
+$password = $_POST['Contrasena'];
 
-		require_once 'conexion.php';
+		require_once 'Resultadocrear.php';
   $conn = dbConnect();
 
 
