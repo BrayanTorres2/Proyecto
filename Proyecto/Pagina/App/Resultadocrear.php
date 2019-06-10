@@ -24,7 +24,7 @@ echo "Connected successfully";
 
          if (mysqli_query($conexion, $sql) === TRUE) {
 
-            echo 'alert("Registro completo")';
+            echo '../Login.php';
 
         } else {
 
