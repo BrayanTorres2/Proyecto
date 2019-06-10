@@ -1,28 +1,12 @@
 <?php
 include ("Conexion.php");
-$nombre = $_POST["usser"];
-$password = $_POST["pass"];
 
-$consulta = mysqli_query ($conexion,"SELECT * FROM Usuarios WHERE Nombreusuario = '$nombre' AND Contrasena = '$password'");
+$consulta = mysqli_query ($conexion,"SELECT * FROM Usuarios WHERE Nombreusuario = '$_POST["Nombreusuario"];' AND Contrasena = '= $_POST["contrasena"]'");
 
 if(!$consulta){
-    echo '
-        <!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>*Chask*</title>
-    <meta charset="UTF-8">
+    echo 'Thanos evaporo al usuario... no existe'
+    header('Location: https://cdn.20m.es/img2/recortes/2019/04/29/940221-600-338.jpg')
 
-</head>
-
-    <body id="Login">
-    Thanos evaporo al usuario... no existe
-    <img src="https://cdn.20m.es/img2/recortes/2019/04/29/940221-600-338.jpg"/>
-
-
-
-</html>';
-}
 else{
      echo '<!DOCTYPE html>
 <html lang="es">
