@@ -9,7 +9,7 @@ include('DBconection.php');?>
      if ($user=="" || $contra=="" || $email=""){
         echo 'alert("Datos incorrectos o incompletos")';
     }
-        $sql= "INSERT INTO Usuarios (Nombreusuario,Contrasena,Correoelectronico) VALUES ('".$user."','".$contra."','".$_POST['Correoelectronico'];."')";
+        $sql= "INSERT INTO Usuarios (Nombreusuario,Contrasena,Correoelectronico) VALUES ('".$user."','".$contra."','".$_POST['Correoelectronico']."')";
 
         echo $sql;
          if ($conexion->query($sql) === TRUE) {
