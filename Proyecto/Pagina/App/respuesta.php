@@ -6,7 +6,7 @@ $password = ($_POST["pass"]);
 
 $consulta = mysqli_query ($conexion,"SELECT 'Nombreusuario','Contrasena' FROM Usuarios WHERE Nombreusuario = '$nombre' AND Contrasena = '$password'");
 
-if($consulta===NULL){
+if(mysqli_num_rows($consulta)<=0){
     echo 'Thanos evaporo al usuario... no existe';
     header('Location: https://cdn.20m.es/img2/recortes/2019/04/29/940221-600-338.jpg');
 }else{
