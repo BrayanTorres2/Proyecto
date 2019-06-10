@@ -3,7 +3,7 @@ include ("Conexion.php");
 $nombre = $_POST["usser"];
 $password = $_POST["pass"];
 
-$consulta = mysqli_query ("SELECT * FROM Usuarios WHERE Nombreusuario = '$nombre' AND Contrasena = '$password'");
+$consulta = mysqli_query ("SELECT * FROM Usuarios WHERE Nombreusuario = '$nombre'");
 
 if(!$consulta){
     echo '
