@@ -1,10 +1,10 @@
 <?php
 include ("Conexion.php");
-include ("../Login.php");
-$nombre = $_POST["usser"];
-$password = $_POST["pass"];
 
-$consulta = mysqli_query ($conexion,"SELECT * FROM Usuarios WHERE Nombreusuario = '$nombre' AND Contrasena = '$password'");
+$nombre = mysqli_real_escape_string ($_POST["name"],$conexion);
+$password = mysqli_real_escape_string($_POST["contraseña"],$conexion);
+
+$consulta = mysqli_query ($conexion,"SELECT 'Nombreusuario','Contrasena' FROM Usuarios WHERE Nombreusuario = '$nombre' AND Contrasena = '$password'");
 
 if(!$consulta){
     echo 'Thanos evaporo al usuario... no existe';
