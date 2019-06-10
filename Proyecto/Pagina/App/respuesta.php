@@ -1,5 +1,6 @@
 <?php
-include ("Conexion.php","Login.php");
+include ("Conexion.php");
+include ("../Login.php");
 $nombre = $_POST["usser"];
 $password = $_POST["pass"];
 
