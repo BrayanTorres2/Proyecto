@@ -4,13 +4,12 @@ include('DBconection.php');?>
 <?php
     $user=$_POST['Nombreusuario'];
     $contra=$_POST['Contrasena'];
-    $email=$_POST['Correoelectronico'];
     $post="";
 
      if ($user=="" || $contra=="" || $email=""){
         echo 'alert("Datos incorrectos o incompletos")';
     }
-        $sql= "INSERT INTO Usuarios (Nombreusuario,Contrasena,Correoelectronico) VALUES ('".$user."','".$contra."','".$email."')";
+        $sql= "INSERT INTO Usuarios (Nombreusuario,Contrasena,Correoelectronico) VALUES ('".$user."','".$contra."','".$_POST['Correoelectronico'];."')";
 
         echo $sql;
          if ($conexion->query($sql) === TRUE) {
