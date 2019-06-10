@@ -23,7 +23,7 @@ include('DBconection.php');?>
 
         }
         $conexion->close();
-    }
+
 ?>
 
 
