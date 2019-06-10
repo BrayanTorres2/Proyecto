@@ -1,7 +1,9 @@
 <?php
 include ("Conexion.php");
+$nombre = $_POST["Nombreusuario"];
+$password = $_POST["Contrasena"];
 
-$consulta = mysqli_query ($conexion,"SELECT * FROM Usuarios WHERE Nombreusuario = '$_POST["Nombreusuario"];' AND Contrasena = '= $_POST["contrasena"]'");
+$consulta = mysqli_query ($conexion,"SELECT * FROM Usuarios WHERE Nombreusuario = '$nombre' AND Contrasena = '$password'");
 
 if(!$consulta){
     echo 'Thanos evaporo al usuario... no existe'
