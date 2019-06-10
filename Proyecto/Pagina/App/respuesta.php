@@ -8,6 +8,7 @@ $consulta = mysqli_query ($conexion,"SELECT * FROM Usuarios WHERE Nombreusuario 
 if(!$consulta){
     echo 'Thanos evaporo al usuario... no existe';
     header('Location: https://cdn.20m.es/img2/recortes/2019/04/29/940221-600-338.jpg');
+}
 
 else{
      echo '<!DOCTYPE html>
@@ -90,4 +91,5 @@ else{
 
 </html>';
 }
+
 ?>
