@@ -19,12 +19,12 @@ echo "Connected successfully";
      if ($userDB=="" || $contra=="" || $email=""){
         echo 'alert("Datos incorrectos o incompletos")';
     }
-        $sql= "INSERT INTO Usuarios (Nombreusuario,Contrasena,Correoelectronico) VALUES ('".$user."','".$contra."','".$_POST['Correoelectronico']."')";
+        $sql= "INSERT INTO Usuarios (Nombreusuario,Contrasena,Correoelectronico) VALUES ('".$userDB."','".$contra."','".$_POST['Correoelectronico']."')";
 
 
          if (mysqli_query($conexion, $sql) === TRUE) {
 
-            echo '../Login.php';
+            header('Location: ../Login.php');
 
         } else {
 
