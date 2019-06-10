@@ -21,7 +21,7 @@ include('DBconection.php');?>
             echo 'alert("Error")';
 
         }
-        $conexion->close();
+        $conexion ->close();
 
 ?>
 
