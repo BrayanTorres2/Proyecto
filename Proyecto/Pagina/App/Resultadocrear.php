@@ -6,7 +6,7 @@ include('DBconection.php');
 
         $sql= "INSERT INTO Usuarios (Nombreusuario,Contrasena,Correoelectronico) VALUES ('".$_POST['Nombreusuario']."','".$_POST['Contrasena']."','".$_POST['Correoelectronico']."')";
 
-        echo $sql
+        echo $sql;
         if ($conexion->query($sql) === TRUE) {
             echo "Usuario creado";
         } else {
